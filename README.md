@@ -376,25 +376,36 @@ To complete the labs, you'll need the following:
 
 pip --disable-pip-version-check --no-cache-dir install pylint
 
-pip --disable-pip-version-check --no-cache-dir install numpy 
+pip --disable-pip-version-check --no-cache-dir install numpy
 
-pip --disable-pip-version-check --no-cache-dir install pandas 
+pip --disable-pip-version-check --no-cache-dir install pandas
 
-pip --disable-pip-version-check --no-cache-dir 
-install ipykernel 
+pip --disable-pip-version-check --no-cache-dir install ipykernel
 
-pip --disable-pip-version-check --no-cache-dir install sklearn 
+pip --disable-pip-version-check --no-cache-dir install joblib
 
-pip --disable-pip-version-check --no-cache-dir install azureml-sdk 
+pip --disable-pip-version-check --no-cache-dir install sklearn
 
-pip --disable-pip-version-check --no-cache-dir install azureml-sdk[auto] 
+pip --disable-pip-version-check --no-cache-dir install azureml-sdk
 
-pip --disable-pip-version-check --no-cache-dir install azureml-widgets 
+pip --disable-pip-version-check --no-cache-dir install azureml-sdk[auto]
 
-You can now execute the notebooks successfully 
+pip --disable-pip-version-check --no-cache-dir install azureml-widgets
+
+pip --disable-pip-version-check --no-cache-dir  install opendp-whitenoise
+
+pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise-core
+
+pip --disable-pip-version-check --no-cache-dir install matplotlib
+
+pip --disable-pip-version-check --no-cache-dir install seaborn
+
+pip --disable-pip-version-check --no-cache-dir install pandas-profiling
+
+You can now execute the notebooks successfully.
 
 
-## Available Notebooks 
+## Available Notebooks
 
 In this project we have inside src folder many directories with jupyter notebook that you have to execute to obtain and complete the objective of this repository.
 The folder src have:
@@ -463,7 +474,7 @@ Finally, in the same view, to do the retrain process correctly some parameters h
 
 Once the parameters were setted we have everything ready to execute the retraining process!
 
-![Retrain parameters in portal](docs/retrain_pipeline_parameters.png)
+![Retrain parameters in portal](/docs/retrain_pipeline_parameters.png =800x600)
 
 # References
 
