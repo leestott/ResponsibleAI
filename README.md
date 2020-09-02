@@ -463,7 +463,7 @@ Finally, in the same view, to do the retrain process correctly some parameters h
 
 Once the parameters were setted we have everything ready to execute the retraining process!
 
-![Retrain parameters in portal](/docs/retrain_pipeline_parameters.png =800x600)
+![Retrain parameters in portal](docs/retrain_pipeline_parameters.png)
 
 # References
 
