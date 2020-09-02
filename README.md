@@ -411,15 +411,10 @@ The folder src have:
 6. **monitoring:** datadrift-pipeline.ipynb and environment.yml
 7. **preprocessing:** exploratory_data_analysis.ipynb and environment.yml
 
-if your running this on a local machine non devcontainer you execute the following commands before do anything inside these notebooks. For each one do the follwing cmd lines:
+if your running this on a local machine non devcontainer you execute the following commands before do anything inside these notebooks. For each one do the following cmd lines:
 
 - **Conda commands to create local env by environment.yml:** `conda env create -f environment.yml`
 - **Set conda env into jupyter notebook:** `python -m ipykernel install --user --name <environment_name> --display-name "Python (<environment_name>)"`
-
-To simplify the installation process, we have created some installation notebooks that when they are runed, they install all the dependencies for MLOps Pipeline Notebooks.
-
-- `src/installation-libraries/installation-differential-privacy.ipynb`
-- `src/installation-libraries/Installations.ipynb`
 
 ## 3. Run Dataset Generator
 
