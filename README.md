@@ -113,9 +113,9 @@ Use impartiality capabilities to:
 
 |                                                     |                                                     |     |
 | :-------------------------------------------------: | :-------------------------------------------------: | :-: |
-|  ![Grid_1](docs/differential-privacy.png =500x500)  | ![Grid_2](docs/differential-privacy_2.png =500x500) |
-| ![Grid_3](docs/differential-privacy_3.png =500x500) | ![Grid_4](docs/differential-privacy_4.png =500x500) |
-| ![Grid_5](docs/differential-privacy_5.png =500x500) | ![Grid_6](docs/differential-privacy_6.png =500x500) |
+|  ![Grid_1](docs/differential-privacy.png)  | ![Grid_2](docs/differential-privacy_2.png) |
+| ![Grid_3](docs/differential-privacy_3.png) | ![Grid_4](docs/differential-privacy_4.png) |
+| ![Grid_5](docs/differential-privacy_5.png) | ![Grid_6](docs/differential-privacy_6.png) |
 
 ML is increasingly used in scenarios that encompass sensitive information, such as census and patient medical data. Current practices, such as writing or masking data, may be limiting ML. To address this issue, confidential machine learning and differential privacy techniques can be used to help organizations create solutions while maintaining data privacy and confidentiality.
 
