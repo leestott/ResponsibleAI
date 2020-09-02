@@ -113,7 +113,7 @@ Use impartiality capabilities to:
 
 |                                                     |                                                     |     |
 | :-------------------------------------------------: | :-------------------------------------------------: | :-: |
-|  ![Grid_1](docs/differential-privacy.png)  | ![Grid_2](docs/differential-privacy_2.png) |
+| ![Grid_1](docs/differential-privacy.png)   | ![Grid_2](docs/differential-privacy_2.png)  |
 | ![Grid_3](docs/differential-privacy_3.png) | ![Grid_4](docs/differential-privacy_4.png) |
 | ![Grid_5](docs/differential-privacy_5.png) | ![Grid_6](docs/differential-privacy_6.png) |
 
@@ -356,19 +356,19 @@ To complete the labs, you'll need the following:
         - **Suspend idle environment after**: 120 minutes
     5. Wait for the environment to be created, and then click **Connect** to connect to it. This will open a browser-based instance of Visual Studio Code.
 
-Using Azure Machine learning Notebooks 
+### Using Azure Machine learning Notebooks 
 
 - Simply download the folder structure and upload the entire content to Azure Machine Learning Notebook 
 
-![aml notebook](docs/aml_notebook_upload.png)
+![aml notebook](docs/aml_notebook_upload.PNG)
 
 - You now need to create a new compute instance for your notebook environment 
 
-![aml compute](docs/aml_compute.png)
+![aml compute](docs/aml_compute.PNG)
 
 - You now need to install the AML Prequestites to the Notebook Compute Host, to do this simply open a notebook and then select the open terminal. 
 
-![aml compute terminal](docs/notebook_terminal.png)
+![aml compute terminal](docs/notebook_terminal.PNG)
 
 - select the terminal and install all the requirements using pip install 
 
