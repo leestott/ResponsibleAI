@@ -360,15 +360,15 @@ Using Azure Machine learning Notebooks
 
 - Simply download the folder structure and upload the entire content to Azure Machine Learning Notebook 
 
-![aml notebook](docs/aml_notebook_upload.png)
+![aml notebook](docs/aml_notebook_upload.PNG)
 
 - You now need to create a new compute instance for your notebook environment 
 
-![aml compute](docs/aml_compute.png)
+![aml compute](docs/aml_compute.PNG)
 
 - You now need to install the AML Prequestites to the Notebook Compute Host, to do this simply open a notebook and then select the open terminal. 
 
-![aml compute terminal](docs/notebook_terminal.png)
+![aml compute terminal](docs/notebook_terminal.PNG)
 
 - select the terminal and install all the requirements using pip install 
 
