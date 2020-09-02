@@ -6,7 +6,7 @@ products:
 description: "Responsible AI 2020"
 ---
 
-![App Overview](./docs/rai.jpeg =800x500)
+![App Overview](/docs/rai.jpeg)
 
 # Responsible AI 2020 - Detect if a patient needs treatment based on heart-disease data
 
