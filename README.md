@@ -436,7 +436,9 @@ The folder src have:
 6. **monitoring:** datadrift-pipeline.ipynb and environment.yml
 7. **preprocessing:** exploratory_data_analysis.ipynb and environment.yml
 
-if your running this on a local machine non devcontainer you execute the following commands before do anything inside these notebooks. For each one do the following cmd lines:
+If you are running this on a local machine non devcontainer you execute the following commands before do anything inside these notebooks. 
+
+For each one do the following cmd lines:
 
 - **Conda commands to create local env by environment.yml:** `conda env create -f environment.yml`
 - **Set conda env into jupyter notebook:** `python -m ipykernel install --user --name <environment_name> --display-name "Python (<environment_name>)"`
