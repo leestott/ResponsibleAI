@@ -419,7 +419,7 @@ pip --disable-pip-version-check --no-cache-dir install azureml-datadrift
 You can now execute the notebooks successfully.
 
 
-## Available Notebooks
+## Jupyter Notebooks
 
 In this project we have inside src folder many directories with jupyter notebook that you have to execute to obtain and complete the objective of this repository.
 The folder src have:
