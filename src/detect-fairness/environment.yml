@@ -1,0 +1,18 @@
+name: heart-disease-fairlearn
+channels:
+  - defaults
+dependencies:
+  - pip=20.0.2
+  - python=3.7.7
+  - pip:
+      - numpy==1.18.5
+      - pandas==1.0.4
+      - jupyter==1.0.0
+      - sklearn==0.0
+      - scikit-learn==0.23.0
+      - ipykernel==5.1.4
+      - azureml-sdk==1.8.0
+      - matplotlib==3.1.0
+      - interpret-community==0.11.2
+      - fairlearn==0.4.6
+      - azureml-contrib-fairness==1.8.0

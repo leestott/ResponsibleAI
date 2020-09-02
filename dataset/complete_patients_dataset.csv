@@ -1,0 +1,304 @@
+age,sex,chest_pain_type,resting_blood_pressure,cholesterol,fasting_blood_sugar,rest_ecg,max_heart_rate_achieved,exercise_induced_angina,st_depression,st_slope,num_major_vessels,thalassemia,target,state,address,city,postalCode,name,ssn,pregnant,diabetic,asthmatic,observation,smoker
+63,1,3,145,233,1,0,150,0,2.3,0,0,1,1,DC,1745 T Street Southeast,Washington,20020,Daiki Matsumoto,809-26-4392,0,0,0,Daiki Matsumoto from Washington. Last visit on 01/15/2020,1
+37,1,2,130,250,0,1,187,0,3.5,0,0,2,1,KY,6007 Applegate Lane,Louisville,40219,Ieva Barkute,762-18-9321,0,0,1,Ieva Barkute from Louisville. Last visit on 09/16/2020,0
+41,0,1,130,204,0,0,172,0,1.4,2,0,2,1,CA,560 Penstock Drive,Grass Valley,95945,Ni Kang,620-90-6959,0,0,0,Ni Kang from Grass Valley. Last visit on 04/05/2018,0
+56,1,1,120,236,0,1,178,0,0.8,2,0,2,1,CT,150 Carter Street,Manchester,06040,Borbala Fekete,337-83-5314,0,0,0,Borbala Fekete from Manchester. Last visit on 04/01/2019,0
+57,0,0,120,354,0,1,163,1,0.6,2,0,2,1,KY,2721 Lindsay Avenue,Louisville,40206,Takuma Hayashi,516-20-3479,1,1,0,Takuma Hayashi from Louisville. Last visit on 11/12/2019,0
+57,1,0,140,192,0,1,148,0,0.4,1,0,1,1,VT,18 Densmore Drive,Essex,05452,Gabriel Nastase,812-89-1408,0,1,1,Gabriel Nastase from Essex. Last visit on 08/15/2020,0
+56,0,1,140,294,0,0,153,0,1.3,1,0,2,1,CA,637 Britannia Drive,Vallejo,94591,Nur Liyana,551-75-9824,0,0,0,Nur Liyana from Vallejo. Last visit on 04/02/2020,0
+44,1,1,120,263,0,1,173,0,0.0,2,0,3,1,AZ,5601 West Crocus Drive,Glendale,85306,Mariña Quintá,240-17-4079,0,0,0,Mariña Quintá from Glendale. Last visit on 01/17/2018,0
+52,1,2,172,199,1,1,162,0,0.5,2,0,3,1,TN,5403 Illinois Avenue,Nashville,37209,Sara Folgueroles,389-75-8162,0,0,1,Sara Folgueroles from Nashville. Last visit on 03/09/2019,0
+57,1,2,150,168,0,1,174,0,1.6,2,0,2,1,AZ,8821 West Myrtle Avenue,Glendale,85305,Sofie Carlsson,140-29-3383,0,0,0,Sofie Carlsson from Glendale. Last visit on 10/11/2018,0
+54,1,0,140,239,0,1,160,0,1.2,2,0,2,1,KY,2203 7th Street Road,Louisville,40208,Ulfa Azzahra,613-25-2464,0,1,0,Ulfa Azzahra from Louisville. Last visit on 07/22/2018,0
+48,0,2,130,275,0,1,139,0,0.2,2,0,2,1,CO,6463 Vrain Street,Arvada,80003,Imelda Pagnotto,681-33-3348,1,0,0,Imelda Pagnotto from Arvada. Last visit on 04/10/2020,1
+49,1,1,130,266,0,1,171,0,0.6,2,0,2,1,VT,87 Horseshoe Drive,West Windsor,05037,Zdenka Kozakova,410-57-8819,0,1,0,Zdenka Kozakova from West Windsor. Last visit on 08/15/2020,0
+64,1,3,110,211,0,0,144,1,1.8,1,0,2,1,CT,60 Desousa Drive,Manchester,06040,Gerard Belisle,950-18-7103,0,0,0,Gerard Belisle from Manchester. Last visit on 03/12/2018,0
+58,0,3,150,283,1,0,162,0,1.0,2,0,2,1,MA,4 Old Colony Way,Yarmouth,02664,Claude Aupry,299-63-9911,0,0,0,Claude Aupry from Yarmouth. Last visit on 12/22/2019,0
+50,0,2,120,219,0,1,158,0,1.6,1,0,2,1,TN,314 South 17th Street,Nashville,37206,Ozlem Kurt,852-97-1145,0,0,1,Ozlem Kurt from Nashville. Last visit on 02/04/2018,0
+58,0,2,120,340,0,1,172,0,0.0,2,0,2,1,AR,1649 Timberridge Court,Fayetteville,72704,Ali Yilmaz,688-32-6065,0,0,0,Ali Yilmaz from Fayetteville. Last visit on 02/25/2018,0
+66,0,3,150,226,0,1,114,0,2.6,0,0,2,1,AL,5461 West Shades Valley Drive,Montgomery,36108,Agnes Fulop,721-41-6861,1,1,0,Agnes Fulop from Montgomery. Last visit on 05/23/2018,0
+43,1,0,150,247,0,1,171,0,1.5,2,0,2,1,TN,629 Debbie Drive,Nashville,37076,Claudia Mazzanti,416-92-7774,0,0,0,Claudia Mazzanti from Nashville. Last visit on 07/04/2020,0
+69,0,3,140,239,0,1,151,0,1.8,2,2,2,1,CA,22572 Toreador Drive,Salinas,93908,Emil Moldovan,117-12-4049,0,0,0,Emil Moldovan from Salinas. Last visit on 09/16/2019,0
+59,1,0,135,234,0,1,161,0,0.5,1,0,3,1,AR,3034 Mica Street,Fayetteville,72704,Hieu Lai,950-81-2660,0,0,0,Hieu Lai from Fayetteville. Last visit on 03/13/2020,1
+44,1,2,130,233,0,1,179,1,0.4,2,0,2,1,AR,3729 East Mission Boulevard,Fayetteville,72703,Antra Abola,433-66-6341,0,0,0,Antra Abola from Fayetteville. Last visit on 04/22/2019,0
+42,1,0,140,226,0,1,178,0,0.0,2,0,2,1,TN,5114 Greentree Drive,Nashville,37211,Luka Zupan,198-63-3983,0,0,0,Luka Zupan from Nashville. Last visit on 03/27/2018,1
+61,1,2,150,243,1,1,137,1,1.0,1,0,2,1,AL,3466 Southview Avenue,Montgomery,36111,Friedrich Knerich,644-69-3859,0,1,0,Friedrich Knerich from Montgomery. Last visit on 02/11/2018,0
+40,1,3,140,199,0,1,178,1,1.4,2,0,3,1,GA,1513 Cathy Street,Savannah,31415,Soo-bin Gwon,116-88-6060,0,0,0,Soo-bin Gwon from Savannah. Last visit on 12/21/2020,0
+71,0,1,160,302,0,1,162,0,0.4,2,2,2,1,AK,600 West 19th Avenue,Anchorage,99503,Jin-min Seong,628-21-5024,1,0,0,Jin-min Seong from Anchorage. Last visit on 06/04/2020,1
+59,1,2,150,212,1,1,157,0,1.6,2,0,2,1,TN,1208 Elkader Court North,Nashville,37013,Anders Nygaard,611-92-4775,0,0,0,Anders Nygaard from Nashville. Last visit on 09/24/2020,0
+51,1,2,110,175,0,1,123,0,0.6,2,0,2,1,CT,210 Green Road,Manchester,06042,Kelly Tan,960-24-4290,0,0,1,Kelly Tan from Manchester. Last visit on 05/01/2018,0
+65,0,2,140,417,1,0,157,0,0.8,2,1,2,1,CA,49548 Road 200,O'Neals,93645,Branimira Taseva,801-69-5195,0,1,0,Branimira Taseva from O'Neals. Last visit on 11/20/2020,0
+53,1,2,130,197,1,0,152,0,1.2,0,0,2,1,DC,81 Seaton Place Northwest,Washington,20001,Anna Ostrowska,333-73-2549,0,1,0,Anna Ostrowska from Washington. Last visit on 07/04/2018,0
+41,0,1,105,198,0,1,168,0,0.0,2,1,2,1,TN,1267 Martin Street,Nashville,37203,Shakti Menon,460-53-6958,0,0,1,Shakti Menon from Nashville. Last visit on 05/03/2020,1
+65,1,0,120,177,0,1,140,0,0.4,2,0,3,1,KY,7431 Candace Way,Louisville,40214,Krystyna Sokolowska,820-97-6800,0,0,1,Krystyna Sokolowska from Louisville. Last visit on 12/19/2018,0
+44,1,1,130,219,0,0,188,0,0.0,2,0,2,1,MD,1407 Walden Court,Crofton,21114,Lidia Nowakowska,182-57-6135,0,1,0,Lidia Nowakowska from Crofton. Last visit on 04/09/2019,1
+54,1,2,125,273,0,0,152,0,0.5,0,1,2,1,MD,5906 Milton Avenue,Deale,20751,Antonio Teixeira,994-80-6145,0,0,0,Antonio Teixeira from Deale. Last visit on 02/23/2020,0
+51,1,3,125,213,0,0,125,1,1.4,2,1,2,1,MA,74 Springfield Street,Agawam,01001,Nanette Langen,309-57-9304,0,0,0,Nanette Langen from Agawam. Last visit on 06/09/2018,0
+46,0,2,142,177,0,0,160,1,1.4,0,0,2,1,OK,2905 Stonebridge Court,Norman,73071,Isabel Robledo,869-28-3388,1,1,0,Isabel Robledo from Norman. Last visit on 04/03/2018,1
+54,0,2,135,304,1,1,170,0,0.0,2,0,2,1,CA,20930 Todd Valley Road,Foresthill,95631,Isabella Toscano,751-72-8953,1,0,1,Isabella Toscano from Foresthill. Last visit on 06/20/2020,1
+54,1,2,150,232,0,0,165,0,1.6,2,0,3,1,AZ,5928 West Mauna Loa Lane,Glendale,85306,Ngai Dinh,727-46-9586,0,0,0,Ngai Dinh from Glendale. Last visit on 11/17/2020,1
+65,0,2,155,269,0,1,148,0,0.8,2,0,2,1,DC,802 Madison Street Northwest,Washington,20011,Yejoon Na,672-27-5161,1,0,0,Yejoon Na from Washington. Last visit on 09/06/2020,0
+65,0,2,160,360,0,0,151,0,0.8,2,0,2,1,DC,2811 Battery Place Northwest,Washington,20016,Ines Vaz,276-36-7249,1,1,1,Ines Vaz from Washington. Last visit on 06/02/2020,1
+51,0,2,140,308,0,0,142,0,1.5,2,1,2,1,VT,210 Lacross Lane,Westmore,05860,Kadyr Sattaruly,610-33-7148,1,0,0,Kadyr Sattaruly from Westmore. Last visit on 11/23/2019,0
+48,1,1,130,245,0,0,180,0,0.2,1,0,2,1,OK,2010 Rising Hill Drive,Norman,73071,Patchara Sakda,940-28-5533,0,1,1,Patchara Sakda from Norman. Last visit on 03/14/2020,0
+45,1,0,104,208,0,0,148,1,3.0,1,0,2,1,VT,388 East Main Street,Middlebury,05753,Sota Sakai,617-39-9854,0,1,0,Sota Sakai from Middlebury. Last visit on 09/26/2019,0
+53,0,0,130,264,0,0,143,0,0.4,1,0,2,1,TN,450 Kinhawk Drive,Nashville,37211,Rok Kavcic,470-60-3351,1,0,0,Rok Kavcic from Nashville. Last visit on 01/17/2020,0
+39,1,2,140,321,0,0,182,0,0.0,2,0,2,1,CT,131 Westerly Street,Manchester,06042,Dalia Pelayo,338-73-4835,0,0,0,Dalia Pelayo from Manchester. Last visit on 01/28/2020,0
+52,1,1,120,325,0,1,172,0,0.2,2,0,2,1,MD,308 Woodleaf Court,Glen Burnie,21061,Dragana Lazic,877-59-9616,0,0,0,Dragana Lazic from Glen Burnie. Last visit on 03/17/2019,1
+44,1,2,140,235,0,0,180,0,0.0,2,0,2,1,KY,8502 Madrone Avenue,Louisville,40258,Shweta Chourasia,923-19-2003,0,0,0,Shweta Chourasia from Louisville. Last visit on 08/14/2019,0
+47,1,2,138,257,0,0,156,0,0.0,2,0,2,1,MA,23 Sable Run Lane,Methuen,01844,Amalie Larsen,474-92-8851,0,1,1,Amalie Larsen from Methuen. Last visit on 02/28/2019,1
+53,0,2,128,216,0,0,115,0,0.0,2,0,0,1,TN,716 Waller Road,Brentwood,37027,Azuolas Norkus,686-82-9456,1,1,1,Azuolas Norkus from Brentwood. Last visit on 11/02/2018,1
+53,0,0,138,234,0,0,160,0,0.0,2,0,2,1,TN,416 McIver Street,Nashville,37211,Leonas Petronis,732-17-4039,0,0,0,Leonas Petronis from Nashville. Last visit on 11/09/2019,1
+51,0,2,130,256,0,0,149,0,0.5,2,0,2,1,DC,1508 Massachusetts Avenue Southeast,Washington,20003,Joana Puigxoriguer,431-14-6355,1,1,0,Joana Puigxoriguer from Washington. Last visit on 01/18/2018,0
+66,1,0,120,302,0,0,151,0,0.4,1,0,2,1,AZ,5615 West Villa Maria Drive,Glendale,85308,Dora Balli,802-35-9424,0,0,0,Dora Balli from Glendale. Last visit on 03/26/2020,1
+62,1,2,130,231,0,1,146,0,1.8,1,3,3,1,AR,3162 Martin Luther King Junior Boulevard,Fayetteville,72704,Christian Lacombe,548-40-5587,0,0,0,Christian Lacombe from Fayetteville. Last visit on 10/31/2019,0
+44,0,2,108,141,0,1,175,0,0.6,1,0,2,1,MD,5306 Ritchie Highway,Baltimore,21225,Calimero Mazzanti,305-49-8573,0,1,0,Calimero Mazzanti from Baltimore. Last visit on 04/15/2019,0
+63,0,2,135,252,0,0,172,0,0.0,2,0,2,1,VT,109 Summit Street,Burlington,05401,Yue Jen,394-82-3137,1,0,0,Yue Jen from Burlington. Last visit on 12/07/2018,0
+52,1,1,134,201,0,1,158,0,0.8,2,1,2,1,AK,816 West 19th Avenue,Anchorage,99503,Iustin Munteanu,506-62-9625,0,0,0,Iustin Munteanu from Anchorage. Last visit on 03/28/2020,0
+48,1,0,122,222,0,0,186,0,0.0,2,0,2,1,VT,172 Alburg Springs Road,Alburgh,05440,William Reuser,998-62-2280,0,1,0,William Reuser from Alburgh. Last visit on 07/24/2020,1
+45,1,0,115,260,0,0,185,0,0.0,2,0,2,1,CT,159 Downey Drive,Manchester,06040,Iselin Pilskog,501-85-4297,0,1,0,Iselin Pilskog from Manchester. Last visit on 09/16/2018,0
+34,1,3,118,182,0,0,174,0,0.0,2,0,2,1,CA,125 John Street,Santa Cruz,95060,Illia Herasymenko,326-13-9071,0,0,0,Illia Herasymenko from Santa Cruz. Last visit on 07/13/2018,0
+57,0,0,128,303,0,0,159,0,0.0,2,1,2,1,MD,1101 Lotus Avenue,Glen Burnie,21061,Valerija Blagojevic,108-35-6938,0,0,0,Valerija Blagojevic from Glen Burnie. Last visit on 07/02/2020,0
+71,0,2,110,265,1,0,130,0,0.0,2,1,2,1,MD,8376 Albacore Drive,Pasadena,21122,Heidi Koppel,521-94-3469,1,0,0,Heidi Koppel from Pasadena. Last visit on 04/17/2020,1
+54,1,1,108,309,0,1,156,0,0.0,2,0,3,1,CO,491 Arabian Way,Grand Junction,81504,Hasibah Kassis,269-52-5207,0,0,0,Hasibah Kassis from Grand Junction. Last visit on 12/17/2020,1
+52,1,3,118,186,0,0,190,0,0.0,1,0,1,1,CO,12245 West 71st Place,Arvada,80004,De Hsieh,438-40-2839,0,0,1,De Hsieh from Arvada. Last visit on 10/17/2018,0
+41,1,1,135,203,0,1,132,0,0.0,1,0,1,1,MA,80 North East Street,Holyoke,01040,Dejana Solevic,233-79-2158,0,0,1,Dejana Solevic from Holyoke. Last visit on 08/18/2020,0
+58,1,2,140,211,1,0,165,0,0.0,2,0,2,1,AR,4695 East Huntsville Road,Fayetteville,72701,Ramazan Kilic,885-82-1113,0,0,0,Ramazan Kilic from Fayetteville. Last visit on 07/15/2018,0
+35,0,0,138,183,0,1,182,0,1.4,2,0,2,1,CT,310 Timrod Road,Manchester,06040,Szymon Michalski,872-55-6437,1,0,0,Szymon Michalski from Manchester. Last visit on 05/29/2019,0
+51,1,2,100,222,0,1,143,1,1.2,1,0,2,1,FL,1364 Capri Drive,Panama City,32405,Jeffry Goh,341-69-8561,0,0,0,Jeffry Goh from Panama City. Last visit on 02/21/2018,0
+45,0,1,130,234,0,0,175,0,0.6,1,0,2,1,GA,132 Laurel Green Court,Savannah,31419,Katarina Balogova,943-13-6231,1,0,0,Katarina Balogova from Savannah. Last visit on 04/02/2019,0
+44,1,1,120,220,0,1,170,0,0.0,2,0,2,1,AZ,6657 West Rose Garden Lane,Glendale,85308,Terry Po,711-51-3970,0,1,0,Terry Po from Glendale. Last visit on 09/15/2020,1
+62,0,0,124,209,0,1,163,0,0.0,2,0,2,1,AK,519 West 75th Avenue,Anchorage,99518,Arina Maharani,631-73-1094,1,0,0,Arina Maharani from Anchorage. Last visit on 06/23/2020,0
+54,1,2,120,258,0,0,147,0,0.4,1,0,3,1,CA,31353 Santa Elena Way,Union City,94587,Dewi Febiana,176-38-3183,0,0,0,Dewi Febiana from Union City. Last visit on 05/09/2019,0
+51,1,2,94,227,0,1,154,1,0.0,2,1,3,1,AZ,8398 West Denton Lane,Glendale,85305,Takuma Hayashi,406-18-1696,0,0,0,Takuma Hayashi from Glendale. Last visit on 01/01/2019,0
+29,1,1,130,204,0,0,202,0,0.0,2,0,2,1,AK,700 Winston Place,Anchorage,99504,Tatjana Erjavec,191-46-5631,0,0,1,Tatjana Erjavec from Anchorage. Last visit on 09/30/2018,1
+51,1,0,140,261,0,0,186,1,0.0,2,0,2,1,FL,232 Maine Avenue,Panama City,32401,Gregory Ivanov,136-11-5793,0,0,0,Gregory Ivanov from Panama City. Last visit on 11/24/2019,1
+43,0,2,122,213,0,1,165,0,0.2,1,0,2,1,MA,1 Kempf Drive,Easton,02375,Arianne Martin,577-20-1514,0,0,0,Arianne Martin from Easton. Last visit on 11/09/2020,0
+55,0,1,135,250,0,0,161,0,1.4,1,0,2,1,TN,5811 Crossings Boulevard,Nashville,37013,Valeriu Preda,471-97-9429,0,0,0,Valeriu Preda from Nashville. Last visit on 03/15/2020,1
+51,1,2,125,245,1,0,166,0,2.4,1,0,2,1,GA,5108 Franklin Street,Savannah,31405,Asier Agerregarai,575-62-5707,0,1,0,Asier Agerregarai from Savannah. Last visit on 01/12/2019,0
+59,1,1,140,221,0,1,164,1,0.0,2,0,2,1,TN,913 Fallview Trail,Nashville,37211,Alida Kundzina,549-30-3019,0,1,0,Alida Kundzina from Nashville. Last visit on 07/24/2018,1
+52,1,1,128,205,1,1,184,0,0.0,2,0,2,1,VT,270 Chrissy's Court,Montgomery,05443,Baymurat Oteshuly,155-90-9035,0,0,0,Baymurat Oteshuly from Montgomery. Last visit on 10/29/2020,0
+58,1,2,105,240,0,0,154,1,0.6,1,0,3,1,VT,130 Old Route 103,Chester,05143,Eduardo Gomes,188-50-1700,0,0,0,Eduardo Gomes from Chester. Last visit on 03/28/2020,0
+41,1,2,112,250,0,1,179,0,0.0,2,0,2,1,CA,10826 Pointe Royal Drive,Bakersfield,93311,Nghi Doan,890-98-7714,0,0,1,Nghi Doan from Bakersfield. Last visit on 01/29/2020,0
+45,1,1,128,308,0,0,170,0,0.0,2,0,2,1,AL,74 Ranch Drive,Montgomery,36109,Stella Johansson,488-38-9357,0,1,1,Stella Johansson from Montgomery. Last visit on 04/23/2019,0
+60,0,2,102,318,0,1,160,0,0.0,2,1,2,1,AZ,6601 West Ocotillo Road,Glendale,85301,Dariga Kasimkyzy,627-81-6098,0,0,0,Dariga Kasimkyzy from Glendale. Last visit on 03/26/2020,0
+52,1,3,152,298,1,1,178,0,1.2,1,0,3,1,CA,19416 Barclay Road,Castro Valley,94546,Rajendra More,394-25-2484,0,0,0,Rajendra More from Castro Valley. Last visit on 07/15/2019,0
+42,0,0,102,265,0,0,122,0,0.6,1,0,2,1,MD,1347 Blackwalnut Court,Annapolis,21403,Szymon Wozniak,725-56-8252,1,0,0,Szymon Wozniak from Annapolis. Last visit on 01/24/2018,0
+67,0,2,115,564,0,0,160,0,1.6,1,0,3,1,AR,1770 Colony Way,Fayetteville,72704,Eden Hirsch,407-22-3406,0,1,0,Eden Hirsch from Fayetteville. Last visit on 04/20/2020,1
+68,1,2,118,277,0,1,151,0,1.0,2,1,3,1,CT,165 Saint John Street,Manchester,06040,Jacob Steffensen,851-81-9352,0,0,0,Jacob Steffensen from Manchester. Last visit on 11/20/2018,0
+46,1,1,101,197,1,1,156,0,0.0,2,0,3,1,CO,2409 Research Boulevard,Fort Collins,80526,Branko Kralj,956-75-5834,0,0,0,Branko Kralj from Fort Collins. Last visit on 01/09/2018,0
+54,0,2,110,214,0,1,158,0,1.6,1,0,2,1,KY,1903 Bashford Manor Lane,Louisville,40218,Bong-jin Lee,823-43-3252,1,0,0,Bong-jin Lee from Louisville. Last visit on 05/09/2020,0
+58,0,0,100,248,0,0,122,0,1.0,1,0,2,1,FL,8315 Surf Drive,Panama City Beach,32408,Eszter Toth,986-64-2192,1,1,1,Eszter Toth from Panama City Beach. Last visit on 02/10/2019,0
+48,1,2,124,255,1,1,175,0,0.0,2,2,2,1,AK,3301 Old Muldoon Road,Anchorage,99504,Alena Polakova,885-51-4211,0,1,1,Alena Polakova from Anchorage. Last visit on 06/12/2019,0
+57,1,0,132,207,0,1,168,1,0.0,2,0,3,1,AK,8800 Cordell Circle,Anchorage,99502,Promporn Neungluthai,440-70-2811,0,0,1,Promporn Neungluthai from Anchorage. Last visit on 01/26/2018,0
+52,1,2,138,223,0,1,169,0,0.0,2,4,2,1,AK,117 East Cook Avenue,Anchorage,99501,Chin-hae Jang,942-36-8650,0,0,0,Chin-hae Jang from Anchorage. Last visit on 09/08/2018,0
+54,0,1,132,288,1,0,159,1,0.0,2,1,2,1,AZ,6231 North 67th Avenue,Glendale,85301,Chandrika Gupta,148-29-8406,0,0,0,Chandrika Gupta from Glendale. Last visit on 06/17/2020,1
+45,0,1,112,160,0,1,138,0,0.0,1,0,2,1,GA,8505 Waters Avenue,Savannah,31406,Julia Serradesanferm,628-92-5236,1,0,0,Julia Serradesanferm from Savannah. Last visit on 03/10/2019,1
+53,1,0,142,226,0,0,111,1,0.0,2,0,3,1,DC,7 Underwood Place Northwest,Washington,20012,Soon-joo Woo,956-98-2657,0,0,0,Soon-joo Woo from Washington. Last visit on 06/13/2020,1
+62,0,0,140,394,0,0,157,0,1.2,1,0,2,1,CA,21950 Arnold Center Road,Carson,90810,Marina Rodriguez,150-92-8627,1,0,0,Marina Rodriguez from Carson. Last visit on 05/24/2020,0
+52,1,0,108,233,1,1,147,0,0.1,2,3,3,1,DC,1427 South Carolina Avenue Southeast,Washington,20003,Akihito Sato,910-33-1005,0,1,0,Akihito Sato from Washington. Last visit on 07/20/2020,1
+43,1,2,130,315,0,1,162,0,1.9,2,1,2,1,FL,1420 Turtleback Trail,Panama City,32413,Georgijs Baltins,522-22-8203,0,1,0,Georgijs Baltins from Panama City. Last visit on 02/10/2020,0
+53,1,2,130,246,1,0,173,0,0.0,2,3,2,1,CO,6990 Pierson Street,Arvada,80004,Radmilo Bogic,969-19-6578,0,0,0,Radmilo Bogic from Arvada. Last visit on 08/09/2018,0
+42,1,3,148,244,0,0,178,0,0.8,2,2,2,1,AR,376 North Williams Drive,Fayetteville,72701,Carme Fontbernat,834-35-4769,0,0,0,Carme Fontbernat from Fayetteville. Last visit on 08/22/2018,1
+59,1,3,178,270,0,0,145,0,4.2,0,0,3,1,AL,3617 Menlo Court,Montgomery,36116,Gadi Kuzbari,126-94-6601,0,0,0,Gadi Kuzbari from Montgomery. Last visit on 12/30/2019,0
+63,0,1,140,195,0,1,179,0,0.0,2,2,2,1,MA,711 Parker Street,East Longmeadow,01028,Elias Panagiotou,800-51-2324,1,0,0,Elias Panagiotou from East Longmeadow. Last visit on 07/13/2019,0
+42,1,2,120,240,1,1,194,0,0.8,0,0,3,1,AK,8521 Crystal Street,Anchorage,99502,Jausma Bite,280-82-9895,0,0,0,Jausma Bite from Anchorage. Last visit on 04/20/2020,1
+50,1,2,129,196,0,1,163,0,0.0,2,0,2,1,AL,1622 Edgar D Nixon Avenue,Montgomery,36104,Heru Zulkarnain,800-49-7398,0,0,0,Heru Zulkarnain from Montgomery. Last visit on 01/06/2018,1
+68,0,2,120,211,0,0,115,0,1.5,1,0,2,1,DC,1608 Gales Street Northeast,Washington,20002,Shai Shemesh,888-65-5059,1,1,0,Shai Shemesh from Washington. Last visit on 11/28/2020,0
+69,1,3,160,234,1,0,131,0,0.1,1,1,2,1,OK,122 East Hayes Street,Norman,73069,Ricardo Cavalcanti,519-61-9734,0,0,0,Ricardo Cavalcanti from Norman. Last visit on 03/14/2018,1
+45,0,0,138,236,0,0,152,1,0.2,1,0,2,1,AR,5144 Cattail Court,Fayetteville,72701,Abhinav Ved,302-75-4544,1,0,0,Abhinav Ved from Fayetteville. Last visit on 06/02/2020,0
+50,0,1,120,244,0,1,162,0,1.1,2,0,2,1,CT,131 Kent Drive,Manchester,06042,Niklavs Kaneps,773-49-1481,0,0,0,Niklavs Kaneps from Manchester. Last visit on 07/09/2019,0
+50,0,0,110,254,0,0,159,0,0.0,2,0,2,1,CA,2313 Vegas Avenue,Castro Valley,94546,Tihomir Pavlovic,906-43-4140,0,0,0,Tihomir Pavlovic from Castro Valley. Last visit on 01/24/2019,1
+64,0,0,180,325,0,1,154,1,0.0,2,0,2,1,FL,5420 Sunset Avenue,Panama City Beach,32408,Fanni Orosz,947-37-5683,0,0,0,Fanni Orosz from Panama City Beach. Last visit on 07/29/2019,1
+57,1,2,150,126,1,1,173,0,0.2,2,1,3,1,CO,242 North Ash Street,Fruita,81521,Fahmi Ibrahim,283-38-5663,0,1,1,Fahmi Ibrahim from Fruita. Last visit on 11/05/2019,0
+64,0,2,140,313,0,1,133,0,0.2,2,0,3,1,CA,38676 Greenwich Circle,Fremont,94536,Laimonis Viksna,744-36-8941,0,0,0,Laimonis Viksna from Fremont. Last visit on 01/16/2018,0
+43,1,0,110,211,0,1,161,0,0.0,2,0,3,1,AR,2426 East Onyx Trail,Fayetteville,72701,Pieter-bas Scholts,854-96-4271,0,0,1,Pieter-bas Scholts from Fayetteville. Last visit on 04/25/2018,0
+55,1,1,130,262,0,1,155,0,0.0,2,0,2,1,DC,110 Seaton Place Northwest,Washington,20001,Peter Pokorny,567-27-8869,0,0,0,Peter Pokorny from Washington. Last visit on 08/26/2020,1
+37,0,2,120,215,0,1,170,0,0.0,2,0,2,1,CO,5385 Iris Street,Arvada,80002,Duangrat Supitayaporn,569-47-1458,1,0,1,Duangrat Supitayaporn from Arvada. Last visit on 06/19/2019,1
+41,1,2,130,214,0,0,168,0,2.0,1,0,2,1,AZ,5628 West Tonopah Drive,Glendale,85308,Leonidas Yakoumakis,195-22-8661,0,0,0,Leonidas Yakoumakis from Glendale. Last visit on 06/06/2020,0
+56,1,3,120,193,0,0,162,0,1.9,1,0,3,1,MD,65 Bay Drive,Annapolis,21403,Laimonis Dumins,587-39-8760,0,0,0,Laimonis Dumins from Annapolis. Last visit on 06/19/2020,0
+46,0,1,105,204,0,1,172,0,0.0,2,0,2,1,AZ,7401 North 61st Drive,Glendale,85301,Marica Juric,477-90-7848,1,0,0,Marica Juric from Glendale. Last visit on 06/09/2019,1
+46,0,0,138,243,0,0,152,1,0.0,1,0,2,1,VT,8 Watkins Road,Montgomery,05468,Li-hua Li,675-60-7476,1,1,1,Li-hua Li from Montgomery. Last visit on 04/23/2020,1
+64,0,0,130,303,0,1,122,0,2.0,1,2,2,1,TN,2209 June Drive,Nashville,37214,Milena Tomazic,981-82-3123,0,0,0,Milena Tomazic from Nashville. Last visit on 04/18/2020,0
+59,1,0,138,271,0,0,182,0,0.0,2,0,2,1,KY,1840 Nobel Place,Louisville,40216,Jaka Pratama,399-15-8535,0,1,0,Jaka Pratama from Louisville. Last visit on 11/24/2018,1
+41,0,2,112,268,0,0,172,1,0.0,2,0,2,1,AR,2622 Martin Luther King Junior Boulevard,Fayetteville,72704,Veronica Fuentes,123-88-7888,1,0,1,Veronica Fuentes from Fayetteville. Last visit on 10/04/2019,1
+54,0,2,108,267,0,0,167,0,0.0,2,0,2,1,MD,4 Glen Circle,Glen Burnie,21060,Monika Nayak,347-70-7185,0,0,0,Monika Nayak from Glen Burnie. Last visit on 08/09/2019,0
+39,0,2,94,199,0,1,179,0,0.0,2,0,2,1,CO,7529 West 72nd Avenue,Arvada,80003,Pere Castellsegui,530-38-1776,0,0,1,Pere Castellsegui from Arvada. Last visit on 11/25/2018,1
+34,0,1,118,210,0,1,192,0,0.7,2,0,2,1,GA,10996 Largo Drive,Savannah,31419,Liliya Medvedeva,660-36-2159,1,0,0,Liliya Medvedeva from Savannah. Last visit on 02/23/2019,0
+47,1,0,112,204,0,1,143,0,0.1,2,0,2,1,AR,2027 North Shannon Drive,Fayetteville,72703,Marcela Kubatova,291-99-3793,0,0,0,Marcela Kubatova from Fayetteville. Last visit on 03/13/2018,0
+67,0,2,152,277,0,1,172,0,0.0,2,1,2,1,FL,154 Boca Lagoon Drive,Panama City Beach,32408,Rayna Bacheva,619-78-2108,1,0,0,Rayna Bacheva from Panama City Beach. Last visit on 11/30/2020,0
+52,0,2,136,196,0,0,169,0,0.1,1,0,2,1,AK,3311 Wiley Post Loop,Anchorage,99517,Emine Sahin,144-73-6574,1,1,0,Emine Sahin from Anchorage. Last visit on 11/02/2018,0
+74,0,1,120,269,0,0,121,1,0.2,2,1,2,1,CO,5055 West 58th Avenue,Arvada,80002,Ella Reuveni,129-25-5299,0,0,1,Ella Reuveni from Arvada. Last visit on 03/19/2020,0
+54,0,2,160,201,0,1,163,0,0.0,2,1,2,1,CA,3228 Chettenham Drive,Rancho Cordova,95670,Jan Macek,784-62-4631,0,0,0,Jan Macek from Rancho Cordova. Last visit on 08/30/2020,0
+49,0,1,134,271,0,1,162,0,0.0,1,0,2,1,OK,1901 North Midwest Boulevard,Edmond,73034,Nghi Doan,939-15-6045,1,0,1,Nghi Doan from Edmond. Last visit on 11/01/2019,0
+42,1,1,120,295,0,1,162,0,0.0,2,0,2,1,CA,1536 North Main Street,Salinas,93906,Benedikte Ringdal,644-19-5183,0,1,1,Benedikte Ringdal from Salinas. Last visit on 03/25/2018,0
+41,1,1,110,235,0,1,153,0,0.0,2,0,2,1,MA,33 Linscott Road,Hingham,02043,Murat Arslan,228-99-8742,0,0,0,Murat Arslan from Hingham. Last visit on 07/05/2020,0
+41,0,1,126,306,0,1,163,0,0.0,2,0,2,1,CA,1732 27th Avenue,Oakland,94601,Zuzana Polaskova,620-35-4900,1,0,0,Zuzana Polaskova from Oakland. Last visit on 03/18/2020,0
+49,0,0,130,269,0,1,163,0,0.0,2,0,2,1,DC,22 Gallatin Street Northeast,Washington,20011,Lan Dam,723-93-5032,0,0,0,Lan Dam from Washington. Last visit on 01/16/2019,0
+60,0,2,120,178,1,1,96,0,0.0,2,0,2,1,AL,8125 Glynnwood Drive,Montgomery,36117,Syamsul Tanjung,446-75-5190,0,0,0,Syamsul Tanjung from Montgomery. Last visit on 10/07/2019,0
+62,1,1,128,208,1,0,140,0,0.0,2,0,2,1,GA,2139 Glynnwood Drive,Savannah,31404,Bazarbay Abildauly,942-34-6465,0,0,0,Bazarbay Abildauly from Savannah. Last visit on 12/20/2019,0
+57,1,0,110,201,0,1,126,1,1.5,1,0,1,1,MA,14 School Street,Medway,02053,Andres Delgadillo,207-39-9596,0,0,0,Andres Delgadillo from Medway. Last visit on 12/26/2019,1
+64,1,0,128,263,0,1,105,1,0.2,1,1,3,1,AK,264 Crest Drive,Soldotna,99669,Denys Bondar,782-55-1084,0,0,0,Denys Bondar from Soldotna. Last visit on 11/05/2020,0
+51,0,2,120,295,0,0,157,0,0.6,2,0,2,1,GA,307 Joel Street,Pooler,31322,Yasmin Faisal,379-76-7989,0,0,0,Yasmin Faisal from Pooler. Last visit on 12/23/2019,0
+43,1,0,115,303,0,1,181,0,1.2,1,0,2,1,VT,188 River Road,Essex,05452,Chin-sik Lim,891-52-3292,0,1,1,Chin-sik Lim from Essex. Last visit on 07/21/2019,1
+42,0,2,120,209,0,1,173,0,0.0,1,0,2,1,CA,1643 Oxford Street,Berkeley,94709,Jaan Valbe,654-82-1753,0,0,0,Jaan Valbe from Berkeley. Last visit on 05/18/2019,0
+67,0,0,106,223,0,1,142,0,0.3,2,2,2,1,TN,5545 Saddlewood Lane,Brentwood,37027,Nasir Isabaiuly,144-24-9089,0,0,0,Nasir Isabaiuly from Brentwood. Last visit on 12/23/2020,0
+76,0,2,140,197,0,2,116,0,1.1,1,0,2,1,CA,26466 Mockingbird Lane,Hayward,94544,Mario Simatupang,720-37-7671,0,1,1,Mario Simatupang from Hayward. Last visit on 08/26/2018,0
+70,1,1,156,245,0,0,143,0,0.0,2,0,2,1,DC,4840 Reservoir Road Northwest,Washington,20007,Unai Kortaxarena,165-93-3552,0,1,0,Unai Kortaxarena from Washington. Last visit on 09/29/2020,0
+44,0,2,118,242,0,1,149,0,0.3,1,1,2,1,MA,599 Cambridge Street,Cambridge,02141,Anette Thomsen,552-16-1602,1,0,0,Anette Thomsen from Cambridge. Last visit on 09/13/2020,1
+60,0,3,150,240,0,1,171,0,0.9,2,0,2,1,TN,584 Rural Hill Road,Nashville,37217,Hakan Kokshoorn,291-10-8373,1,0,0,Hakan Kokshoorn from Nashville. Last visit on 12/19/2018,0
+44,1,2,120,226,0,1,169,0,0.0,2,0,2,1,CO,10262 West 59th Avenue,Arvada,80004,Maha Kabara,579-25-2269,0,1,0,Maha Kabara from Arvada. Last visit on 05/04/2019,0
+42,1,2,130,180,0,1,150,0,0.0,2,0,2,1,KY,945 South 5th Street,Louisville,40203,Pontus Jutila,313-57-4712,0,1,0,Pontus Jutila from Louisville. Last visit on 07/22/2018,1
+66,1,0,160,228,0,0,138,0,2.3,2,0,1,1,AL,2543 The Meadows,Montgomery,36116,Marina Azevedo,792-18-4358,0,1,0,Marina Azevedo from Montgomery. Last visit on 05/29/2018,0
+71,0,0,112,149,0,1,125,0,1.6,1,0,2,1,MA,153 Atlantic Avenue,Salisbury,01952,Peeter Vaino,546-59-4480,1,0,0,Peeter Vaino from Salisbury. Last visit on 08/21/2019,0
+64,1,3,170,227,0,0,155,0,0.6,1,0,3,1,VT,9 Brooklyn Street,Montgomery,05488,Andrii Panasenko,628-71-9564,0,0,1,Andrii Panasenko from Montgomery. Last visit on 12/02/2018,0
+66,0,2,146,278,0,0,152,0,0.0,1,1,2,1,DC,5722 8th Street Northwest,Washington,20011,Goncalo Almeida,213-66-6826,1,0,0,Goncalo Almeida from Washington. Last visit on 10/31/2018,0
+39,0,2,138,220,0,1,152,0,0.0,1,0,2,1,AL,8700 Seaton Boulevard,Montgomery,36116,Dileep Chaturvedi,961-42-6844,0,0,0,Dileep Chaturvedi from Montgomery. Last visit on 05/09/2020,0
+58,0,0,130,197,0,1,131,0,0.6,1,0,2,1,CA,1004 Bellflower Street,Livermore,94551,Kartika Indarwati,152-68-8478,1,0,0,Kartika Indarwati from Livermore. Last visit on 11/24/2020,0
+47,1,2,130,253,0,1,179,0,0.0,2,0,2,1,CA,4738 Mallard Common,Fremont,94555,Gediminas Matulis,423-18-7687,0,1,0,Gediminas Matulis from Fremont. Last visit on 10/17/2019,0
+35,1,1,122,192,0,1,174,0,0.0,2,0,2,1,AK,875 Latouche Street,Anchorage,99501,Miloslav Sedlar,366-18-5141,0,0,0,Miloslav Sedlar from Anchorage. Last visit on 05/31/2019,1
+58,1,1,125,220,0,1,144,0,0.4,1,4,3,1,AL,4940 Fuller Road,Montgomery,36110,Chuan Suttirat,605-94-5417,0,0,0,Chuan Suttirat from Montgomery. Last visit on 09/26/2018,1
+56,1,1,130,221,0,0,163,0,0.0,2,0,3,1,AL,5754 Belleau Drive,Montgomery,36117,Jonathan Kristoffersen,621-69-1734,0,0,0,Jonathan Kristoffersen from Montgomery. Last visit on 07/24/2020,0
+56,1,1,120,240,0,1,169,0,0.0,0,0,2,1,GA,1403 Lincoln Street,Savannah,31401,Bratislav Tomic,100-25-5649,0,0,0,Bratislav Tomic from Savannah. Last visit on 01/20/2020,1
+55,0,1,132,342,0,1,166,0,1.2,2,0,2,1,AR,140 South Hill Avenue,Fayetteville,72701,Andrei Costache,977-93-9527,0,0,0,Andrei Costache from Fayetteville. Last visit on 04/20/2019,0
+41,1,1,120,157,0,1,182,0,0.0,2,0,2,1,KY,642 South 2nd Street,Louisville,40202,An Ni,431-32-5626,0,0,0,An Ni from Louisville. Last visit on 09/25/2018,0
+38,1,2,138,175,0,1,173,0,0.0,2,4,2,1,CO,6473 Zephyr Street,Arvada,80004,Kerstin Mark,669-25-7531,0,0,0,Kerstin Mark from Arvada. Last visit on 08/03/2020,0
+38,1,2,138,175,0,1,173,0,0.0,2,4,2,1,AR,4250 North Valley Lake Drive,Fayetteville,72703,Andrea Lukacova,982-19-4707,0,1,0,Andrea Lukacova from Fayetteville. Last visit on 07/13/2019,0
+67,1,0,160,286,0,0,108,1,1.5,1,3,2,0,FL,565 North Lakeshore Drive,Panama City Beach,32413,Margit Takacs,463-59-9111,0,1,0,Margit Takacs from Panama City Beach. Last visit on 05/22/2020,0
+67,1,0,120,229,0,0,129,1,2.6,1,2,3,0,AR,5514 West Wedington Drive,Fayetteville,72704,Daeng Srisopa,788-59-9703,0,1,0,Daeng Srisopa from Fayetteville. Last visit on 02/14/2019,0
+62,0,0,140,268,0,0,160,0,3.6,0,2,2,0,FL,1909 Wainwright Avenue,Panama City,32405,Lilith Kuzmina,928-50-9325,0,0,0,Lilith Kuzmina from Panama City. Last visit on 07/25/2019,0
+63,1,0,130,254,0,0,147,0,1.4,1,1,3,0,AZ,4525 West Frier Drive,Glendale,85301,Yuu Shibata,645-19-7600,0,0,0,Yuu Shibata from Glendale. Last visit on 10/21/2020,0
+53,1,0,140,203,1,0,155,1,3.1,0,0,3,0,GA,201 West Montgomery Cross Road,Savannah,31406,Petros Doudis,891-11-6284,0,0,0,Petros Doudis from Savannah. Last visit on 07/11/2020,0
+56,1,2,130,256,1,0,142,1,0.6,1,1,1,0,AL,915 Heath Drive,Montgomery,36108,Sebastian Kowalczyk,156-86-7197,0,0,0,Sebastian Kowalczyk from Montgomery. Last visit on 02/10/2018,0
+48,1,1,110,229,0,1,168,0,1.0,0,0,3,0,CT,95 Briarwood Drive,Manchester,06040,Yu-jin Yu,676-73-5564,0,0,0,Yu-jin Yu from Manchester. Last visit on 08/25/2019,0
+58,1,1,120,284,0,0,160,0,1.8,1,0,2,0,CT,69 Washington Street,Manchester,06042,Welly Maryadi,178-45-8229,0,1,0,Welly Maryadi from Manchester. Last visit on 12/17/2020,0
+58,1,2,132,224,0,0,173,0,3.2,2,2,3,0,OK,2900 North Western Avenue,Edmond,73012,Ratih Winata,605-37-6541,0,0,0,Ratih Winata from Edmond. Last visit on 12/25/2020,0
+60,1,0,130,206,0,0,132,1,2.4,1,2,3,0,AZ,7841 West Kristal Way,Glendale,85308,Andrey Glazkov,907-22-9141,0,0,0,Andrey Glazkov from Glendale. Last visit on 06/05/2019,0
+40,1,0,110,167,0,0,114,1,2.0,1,0,3,0,TN,361 Parmley Lane,Nashville,37207,Yue Jen,439-66-6440,0,0,0,Yue Jen from Nashville. Last visit on 06/07/2018,1
+60,1,0,117,230,1,1,160,1,1.4,2,2,3,0,OK,6120 Southeast 84th Street,Oklahoma City,73135,Manuela Torres,931-67-1522,0,1,1,Manuela Torres from Oklahoma City. Last visit on 03/13/2018,1
+64,1,2,140,335,0,1,158,0,0.0,2,0,2,0,AZ,9428 North 65th Drive,Glendale,85302,Joseba Goikosoloeta,294-21-4000,0,1,0,Joseba Goikosoloeta from Glendale. Last visit on 12/21/2019,0
+43,1,0,120,177,0,0,120,1,2.5,1,0,3,0,MA,11 Meeting Place Circle,Boxford,01921,Manasi Goyal,926-87-9190,0,0,0,Manasi Goyal from Boxford. Last visit on 04/01/2018,0
+57,1,0,150,276,0,0,112,1,0.6,1,1,1,0,CA,4438 Maine Avenue,Baldwin Park,91706,Tamar Peled,607-44-4729,0,0,0,Tamar Peled from Baldwin Park. Last visit on 10/09/2018,0
+55,1,0,132,353,0,1,132,1,1.2,1,1,3,0,AL,65 Jones Lane,Montevallo,35115,Tormod Åmodt,189-24-3939,0,0,0,Tormod Åmodt from Montevallo. Last visit on 05/04/2019,0
+65,0,0,150,225,0,0,114,0,1.0,1,3,3,0,KY,3140 Commander Drive,Louisville,40220,Abel Szucs,210-48-3735,0,0,0,Abel Szucs from Louisville. Last visit on 03/20/2019,0
+61,0,0,130,330,0,0,169,0,0.0,2,0,2,0,CA,107 Guaymas Place,Davis,95616,Sara Mladenovic,907-32-4316,1,1,1,Sara Mladenovic from Davis. Last visit on 12/18/2018,0
+58,1,2,112,230,0,0,165,0,2.5,1,1,3,0,AZ,6114 West Glenn Drive,Glendale,85301,Nemanja Milatovic,603-28-2221,0,1,0,Nemanja Milatovic from Glendale. Last visit on 06/13/2020,0
+50,1,0,150,243,0,0,128,0,2.6,1,0,3,0,CA,622 Thomas Street,Woodland,95776,Matheus Silva,708-22-1673,0,0,0,Matheus Silva from Woodland. Last visit on 04/25/2020,0
+44,1,0,112,290,0,0,153,0,0.0,2,1,2,0,FL,127 Grand Heron Drive,Panama City,32407,Jakob Anhalt,803-40-6367,0,0,0,Jakob Anhalt from Panama City. Last visit on 03/20/2020,0
+60,1,0,130,253,0,1,144,1,1.4,2,1,3,0,AK,3504 East 16th Avenue,Anchorage,99508,Iker Etxetxipia,109-24-9890,0,0,1,Iker Etxetxipia from Anchorage. Last visit on 10/08/2018,0
+54,1,0,124,266,0,0,109,1,2.2,1,1,3,0,AL,1230 Stafford Drive,Montgomery,36117,Ana Melinte,927-36-4638,0,0,0,Ana Melinte from Montgomery. Last visit on 07/25/2019,0
+50,1,2,140,233,0,1,163,0,0.6,1,1,3,0,CO,6007 Yarrow Street,Arvada,80004,Nopparat Udomprecha,704-10-8504,0,0,0,Nopparat Udomprecha from Arvada. Last visit on 11/15/2020,0
+41,1,0,110,172,0,0,158,0,0.0,2,0,3,0,OK,632 Belmar Drive,Edmond,73025,Elise Carlsen,469-42-5030,0,1,0,Elise Carlsen from Edmond. Last visit on 07/19/2018,0
+51,0,0,130,305,0,1,142,1,1.2,1,0,3,0,FL,1515 Chandlee Avenue,Panama City,32405,Laura Munteanu,669-31-5112,0,1,1,Laura Munteanu from Panama City. Last visit on 03/03/2019,0
+58,1,0,128,216,0,0,131,1,2.2,1,3,3,0,OK,10632 Admiral Court,Oklahoma City,73162,Lisandro Milanesi,729-52-4147,0,0,1,Lisandro Milanesi from Oklahoma City. Last visit on 12/24/2019,1
+54,1,0,120,188,0,1,113,0,1.4,1,1,3,0,CO,11655 West 81st Avenue,Arvada,80005,Farah Hayek,852-88-2051,0,1,0,Farah Hayek from Arvada. Last visit on 08/10/2019,0
+60,1,0,145,282,0,0,142,1,2.8,1,2,3,0,DC,3500 Blanchard Drive Southwest,Washington,20032,Hana Cermakova,568-30-8662,0,0,0,Hana Cermakova from Washington. Last visit on 11/13/2020,0
+60,1,2,140,185,0,0,155,0,3.0,1,0,2,0,CA,2755 Country Drive,Fremont,94536,Raymond Boule,522-20-2799,0,1,1,Raymond Boule from Fremont. Last visit on 06/18/2020,1
+59,1,0,170,326,0,0,140,1,3.4,0,0,3,0,AL,1850 Berryhill Place,Montgomery,36117,Elif Yildiz,356-19-5743,0,1,1,Elif Yildiz from Montgomery. Last visit on 08/07/2020,0
+46,1,2,150,231,0,1,147,0,3.6,1,0,2,0,AR,58 North U.S.A Drive,Fayetteville,72701,Hasan Aydin,829-21-4689,0,0,0,Hasan Aydin from Fayetteville. Last visit on 04/05/2018,0
+67,1,0,125,254,1,1,163,0,0.2,1,2,3,0,CO,8785 Ellis Court,Arvada,80005,Priya Nayar,862-85-6605,0,0,0,Priya Nayar from Arvada. Last visit on 05/29/2020,0
+62,1,0,120,267,0,1,99,1,1.8,1,2,3,0,MD,1636 Briarview Court,Severn,21144,Mayung Lam,659-99-4472,0,0,0,Mayung Lam from Severn. Last visit on 12/06/2020,1
+65,1,0,110,248,0,0,158,0,0.6,2,2,1,0,CT,12 Knox Street,Manchester,06040,Lan Dam,898-76-5975,0,0,0,Lan Dam from Manchester. Last visit on 03/19/2020,1
+44,1,0,110,197,0,0,177,0,0.0,2,1,2,0,CT,425 Middle Turnpike East,Manchester,06040,Tijana Stankovic,913-42-1866,0,0,0,Tijana Stankovic from Manchester. Last visit on 01/13/2020,0
+60,1,0,125,258,0,0,141,1,2.8,1,1,3,0,AR,2017 North Hartford Drive,Fayetteville,72701,Bertram Juhl,316-55-6685,0,0,0,Bertram Juhl from Fayetteville. Last visit on 09/13/2020,0
+58,1,0,150,270,0,0,111,1,0.8,2,0,3,0,MD,5900 Upland Road,Brooklyn Park,21225,Hannah Weber,371-77-5314,0,0,0,Hannah Weber from Brooklyn Park. Last visit on 07/04/2020,1
+68,1,2,180,274,1,0,150,1,1.6,1,0,3,0,FL,9331 Edison Road,Lithia,33547,Hong Ts'ui,204-84-2294,0,0,0,Hong Ts'ui from Lithia. Last visit on 06/17/2019,0
+62,0,0,160,164,0,0,145,0,6.2,0,3,3,0,AK,1810 Orchard Place,Anchorage,99502,Ona Grigaite,161-83-4151,1,1,0,Ona Grigaite from Anchorage. Last visit on 12/09/2019,0
+52,1,0,128,255,0,1,161,1,0.0,2,1,3,0,CA,145 Grau Drive,Fremont,94536,Miren Elorriaga,500-30-8047,0,0,0,Miren Elorriaga from Fremont. Last visit on 07/22/2019,0
+59,1,0,110,239,0,0,142,1,1.2,1,1,3,0,CA,3959 Fairlands Drive,Pleasanton,94588,Myung-ok Yoo,649-78-8840,0,1,0,Myung-ok Yoo from Pleasanton. Last visit on 02/07/2018,0
+60,0,0,150,258,0,0,157,0,2.6,1,2,3,0,AK,3613 East 18th Avenue,Anchorage,99508,Nadir Segizbaiuly,338-65-3338,1,0,0,Nadir Segizbaiuly from Anchorage. Last visit on 09/24/2019,0
+49,1,2,120,188,0,1,139,0,2.0,1,3,3,0,AR,1275 South Holland Drive,Fayetteville,72704,Amaia Gerenabarrena,735-96-9567,0,0,0,Amaia Gerenabarrena from Fayetteville. Last visit on 04/09/2018,0
+59,1,0,140,177,0,1,162,1,0.0,2,1,3,0,KY,109 Cambridge Station Road,Louisville,40223,Liisi Pyysalo,372-61-4456,0,0,0,Liisi Pyysalo from Louisville. Last visit on 07/17/2020,0
+57,1,2,128,229,0,0,150,0,0.4,1,1,3,0,AR,2107 Elfen Glen,Van Buren,72956,Noora Linna,969-70-1805,0,1,0,Noora Linna from Van Buren. Last visit on 12/28/2020,0
+61,1,0,120,260,0,1,140,1,3.6,1,1,3,0,CO,8522 Ingalls Circle,Arvada,80003,Bella Adinda,486-49-2796,0,0,0,Bella Adinda from Arvada. Last visit on 01/14/2019,1
+39,1,0,118,219,0,1,140,0,1.2,1,0,3,0,MD,1809 Cedar Drive,Severn,21144,Olga Panicucci,976-21-4027,0,0,0,Olga Panicucci from Severn. Last visit on 06/23/2018,0
+61,0,0,145,307,0,0,146,1,1.0,1,0,3,0,AR,1376 Oakland Avenue,Fayetteville,72703,Josif Brkic,596-52-7290,1,0,0,Josif Brkic from Fayetteville. Last visit on 12/26/2018,0
+56,1,0,125,249,1,0,144,1,1.2,1,1,2,0,FL,4306 Bylsma Circle,Panama City,32404,Yea-eun An,712-62-5817,0,0,0,Yea-eun An from Panama City. Last visit on 05/27/2018,0
+43,0,0,132,341,1,0,136,1,3.0,1,0,3,0,CT,233 Buckland Hills Drive,Manchester,06042,Sarmis Saulitis,199-55-8310,1,0,1,Sarmis Saulitis from Manchester. Last visit on 10/14/2018,1
+62,0,2,130,263,0,1,97,0,1.2,1,1,3,0,OK,7701 Southwest 104th Street,Oklahoma City,73169,Miro Matkovic,757-43-4053,0,0,1,Miro Matkovic from Oklahoma City. Last visit on 10/08/2018,1
+63,1,0,130,330,1,0,132,1,1.8,2,3,3,0,KY,14003 Crossbranch Court,Louisville,40245,Eugen Munteanu,744-70-5713,0,0,0,Eugen Munteanu from Louisville. Last visit on 11/18/2019,0
+65,1,0,135,254,0,0,127,0,2.8,1,1,3,0,CO,19590 East Batavia Drive,Aurora,80011,Andi Dharmawan,247-29-5500,0,1,0,Andi Dharmawan from Aurora. Last visit on 04/11/2018,0
+48,1,0,130,256,1,0,150,1,0.0,2,2,3,0,CO,6424 Simms Street,Arvada,80004,Adrian Kowalczyk,737-86-5033,0,0,0,Adrian Kowalczyk from Arvada. Last visit on 08/17/2020,0
+63,0,0,150,407,0,0,154,0,4.0,1,3,3,0,TN,718 Dutchmans Court,Nashville,37076,Anja Sever,846-14-4391,1,1,1,Anja Sever from Nashville. Last visit on 11/17/2018,0
+55,1,0,140,217,0,1,111,1,5.6,0,0,3,0,MD,8496 Isles Court,Pasadena,21122,Gurpal Krishnan,900-61-1045,0,0,0,Gurpal Krishnan from Pasadena. Last visit on 10/28/2020,0
+65,1,3,138,282,1,0,174,0,1.4,1,1,2,0,AR,100 East Joyce Boulevard,Fayetteville,72703,Oscar Godinez,907-67-3741,0,0,0,Oscar Godinez from Fayetteville. Last visit on 04/24/2020,0
+56,0,0,200,288,1,0,133,1,4.0,0,2,3,0,CA,9036 Calico Court,Hesperia,92344,Salam Bettar,168-57-1056,1,1,0,Salam Bettar from Hesperia. Last visit on 06/27/2018,0
+54,1,0,110,239,0,1,126,1,2.8,1,1,3,0,AR,2723 East Joyce Boulevard,Fayetteville,72703,Slobodan Raskovic,558-86-8635,0,1,0,Slobodan Raskovic from Fayetteville. Last visit on 09/19/2019,0
+70,1,0,145,174,0,1,125,1,2.6,0,0,3,0,CA,90 Via Verde,San Lorenzo,94580,Nanami Nakayama,491-51-6215,0,0,1,Nanami Nakayama from San Lorenzo. Last visit on 06/10/2019,0
+62,1,1,120,281,0,0,103,0,1.4,1,1,3,0,OK,1015 Castle Road,Edmond,73034,Stanislava Chervenkova,909-92-8242,0,0,0,Stanislava Chervenkova from Edmond. Last visit on 05/29/2020,1
+35,1,0,120,198,0,1,130,1,1.6,1,0,3,0,AR,2787 West Blackstone Crossing,Fayetteville,72704,Snezana Todorovic,333-20-7251,0,0,0,Snezana Todorovic from Fayetteville. Last visit on 09/27/2020,0
+59,1,3,170,288,0,0,159,0,0.2,1,0,3,0,AK,3555 Alamosa Drive,Anchorage,99502,Stefan Milea,435-11-1420,0,0,0,Stefan Milea from Anchorage. Last visit on 05/26/2018,1
+64,1,2,125,309,0,1,131,1,1.8,1,0,3,0,AZ,6231 North 59th Avenue,Glendale,85301,Raul Laurits,703-14-3098,0,1,0,Raul Laurits from Glendale. Last visit on 06/18/2018,1
+47,1,2,108,243,0,1,152,0,0.0,2,0,2,0,AL,311 South Panama Street,Montgomery,36107,Jiang Liu,497-62-6853,0,1,1,Jiang Liu from Montgomery. Last visit on 11/14/2020,0
+57,1,0,165,289,1,0,124,0,1.0,1,3,3,0,TN,3313 Daisy Trail,Nashville,37013,Beata Kowalska,727-29-6953,0,0,0,Beata Kowalska from Nashville. Last visit on 04/03/2019,1
+55,1,0,160,289,0,0,145,1,0.8,1,1,3,0,AK,5436 Dorbrandt Street,Anchorage,99518,Rene Pelletier,926-57-4709,0,0,1,Rene Pelletier from Anchorage. Last visit on 12/31/2018,0
+64,1,0,120,246,0,0,96,1,2.2,0,1,2,0,CA,553 South Arlington Road,Orange,92869,Bayan Saparkyzy,995-49-4115,0,0,0,Bayan Saparkyzy from Orange. Last visit on 03/26/2019,0
+70,1,0,130,322,0,0,109,0,2.4,1,3,2,0,DC,615 Q Street Northwest,Washington,20001,Genevieve Arcouet,640-71-2706,0,0,0,Genevieve Arcouet from Washington. Last visit on 07/19/2019,0
+51,1,0,140,299,0,1,173,1,1.6,2,0,3,0,CO,457 Mountain Village Boulevard,Mountain Village,81435,Drazenka Anic,525-72-1212,0,0,0,Drazenka Anic from Mountain Village. Last visit on 02/23/2018,0
+58,1,0,125,300,0,0,171,0,0.0,2,2,3,0,AL,144 Lauderdale Street,Montgomery,36116,Paulius Vaitkus,297-50-7486,0,0,0,Paulius Vaitkus from Montgomery. Last visit on 05/13/2019,1
+60,1,0,140,293,0,0,170,0,1.2,1,2,3,0,GA,2 Ambelwood Way,Savannah,31411,Genevieve Plante,915-30-4403,0,1,0,Genevieve Plante from Savannah. Last visit on 09/10/2019,1
+77,1,0,125,304,0,0,162,1,0.0,2,3,2,0,FL,4113 Holiday Drive,Panama City,32408,Kevin Katona,255-18-2677,0,1,1,Kevin Katona from Panama City. Last visit on 08/05/2020,0
+35,1,0,126,282,0,0,156,1,0.0,2,0,3,0,AR,2001 Van Hoose Drive,Fayetteville,72701,Jaan Valbe,746-44-6100,0,0,0,Jaan Valbe from Fayetteville. Last visit on 10/02/2018,0
+70,1,2,160,269,0,1,112,1,2.9,1,1,3,0,AL,9457 Winfield Place,Montgomery,36117,Marja Kestilä,365-76-3327,0,0,0,Marja Kestilä from Montgomery. Last visit on 10/11/2019,0
+59,0,0,174,249,0,1,143,1,0.0,1,0,2,0,AL,1120 Mitchell Young Road,Montgomery,36108,Valentina Alexandrova,529-43-1605,0,1,0,Valentina Alexandrova from Montgomery. Last visit on 06/25/2020,0
+64,1,0,145,212,0,0,132,0,2.0,1,2,1,0,CO,12816 West 65th Way,Arvada,80004,Lisa Richter,731-92-5167,0,0,0,Lisa Richter from Arvada. Last visit on 10/26/2019,1
+57,1,0,152,274,0,1,88,1,1.2,1,1,3,0,MA,10 Erick Road,Mansfield,02048,Amol Bhatnagar,719-96-2472,0,0,0,Amol Bhatnagar from Mansfield. Last visit on 04/15/2019,0
+56,1,0,132,184,0,0,105,1,2.1,1,1,1,0,AR,481 East Redbud Lane,Fayetteville,72703,Ioannis Exarchopoulos,405-64-3630,0,0,0,Ioannis Exarchopoulos from Fayetteville. Last visit on 04/10/2019,0
+48,1,0,124,274,0,0,166,0,0.5,1,0,3,0,OK,320 Northwest 22nd Street,Oklahoma City,73103,Leire Ibarrolaburu,944-26-2074,0,0,1,Leire Ibarrolaburu from Oklahoma City. Last visit on 08/03/2020,1
+56,0,0,134,409,0,0,150,1,1.9,1,2,3,0,AR,33 South Hill Avenue,Fayetteville,72701,Ca Lai,153-26-7030,0,0,0,Ca Lai from Fayetteville. Last visit on 01/14/2018,0
+66,1,1,160,246,0,1,120,1,0.0,1,3,1,0,TN,355 Gillette Road,Nashville,37211,Miroslav Svoboda,403-46-8321,0,1,0,Miroslav Svoboda from Nashville. Last visit on 03/07/2019,0
+54,1,1,192,283,0,0,195,0,0.0,2,1,3,0,GA,151 Main Street,Savannah,31408,Vaishali Purohit,946-57-4079,0,0,0,Vaishali Purohit from Savannah. Last visit on 07/17/2020,0
+69,1,2,140,254,0,0,146,0,2.0,1,3,3,0,FL,545 Tracey Drive,Panama City,32404,Ali Yilmaz,600-36-4384,0,0,0,Ali Yilmaz from Panama City. Last visit on 01/15/2019,0
+51,1,0,140,298,0,1,122,1,4.2,1,3,3,0,VT,3 Southerberry Drive,Montgomery,05468,Majda Pusnik,719-32-7584,0,0,1,Majda Pusnik from Montgomery. Last visit on 05/23/2018,1
+43,1,0,132,247,1,0,143,1,0.1,1,4,3,0,DC,736 Sicard Street Southeast,Washington,20003,Cynthia Looi,443-56-7300,0,0,0,Cynthia Looi from Washington. Last visit on 07/12/2019,0
+62,0,0,138,294,1,1,106,0,1.9,1,3,2,0,CA,6214 Herzog Street,Oakland,94608,Chris Kuo,186-72-4347,0,0,0,Chris Kuo from Oakland. Last visit on 01/25/2019,0
+67,1,0,100,299,0,0,125,1,0.9,1,2,2,0,AR,1160 North College Avenue,Fayetteville,72703,Elize Harmsen,801-72-2981,0,0,0,Elize Harmsen from Fayetteville. Last visit on 03/12/2019,1
+59,1,3,160,273,0,0,125,0,0.0,2,0,2,0,AZ,5843 West McLellan Road,Glendale,85301,Jakub Lukes,474-14-4745,0,0,1,Jakub Lukes from Glendale. Last visit on 11/25/2019,0
+45,1,0,142,309,0,0,147,1,0.0,1,3,3,0,CA,1452 55th Avenue,Oakland,94621,Tarja Hyypiä,901-53-8740,0,0,0,Tarja Hyypiä from Oakland. Last visit on 08/29/2019,0
+58,1,0,128,259,0,0,130,1,3.0,1,2,3,0,CA,4255 Tanager Common,Fremont,94555,Ayame Yamamoto,159-19-7489,0,0,1,Ayame Yamamoto from Fremont. Last visit on 05/04/2018,0
+50,1,0,144,200,0,0,126,1,0.9,1,0,3,0,AZ,13426 West Rovey Avenue,Litchfield Park,85340,Radoslava Bacheva,284-36-2307,0,0,0,Radoslava Bacheva from Litchfield Park. Last visit on 03/24/2018,0
+62,0,0,150,244,0,1,154,1,1.4,1,0,2,0,MA,195 Nursery Street,Springfield,01104,Edi Kolar,898-53-8156,0,1,0,Edi Kolar from Springfield. Last visit on 05/16/2020,0
+38,1,3,120,231,0,1,182,1,3.8,1,0,3,0,CT,126 Marjorie Lane,Manchester,06042,Alina Oleksiienko,999-41-4516,0,1,0,Alina Oleksiienko from Manchester. Last visit on 02/06/2018,0
+66,0,0,178,228,1,1,165,1,1.0,1,2,3,0,MA,22 Charnock Street,Beverly,01915,Tomas Kohout,296-47-9970,1,0,1,Tomas Kohout from Beverly. Last visit on 03/23/2019,1
+52,1,0,112,230,0,1,160,0,0.0,2,1,2,0,DC,817 25th Street Northwest,Washington,20037,Coralie Duperre,647-42-4175,0,0,1,Coralie Duperre from Washington. Last visit on 04/01/2020,0
+53,1,0,123,282,0,1,95,1,2.0,1,2,3,0,DC,2552 Massachusetts Avenue Northwest,Washington,20008,Max Lindgren,278-30-2537,0,0,1,Max Lindgren from Washington. Last visit on 07/08/2018,0
+63,0,0,108,269,0,1,169,1,1.8,1,2,2,0,AK,1711 Lore Road,Anchorage,99507,Candela Arrais,787-46-4590,1,1,0,Candela Arrais from Anchorage. Last visit on 02/23/2018,0
+54,1,0,110,206,0,0,108,1,0.0,1,1,2,0,OK,19091 Northeast 23rd Street,Harrah,73045,Stefan Spel,753-66-5961,0,0,0,Stefan Spel from Harrah. Last visit on 04/03/2019,0
+66,1,0,112,212,0,0,132,1,0.1,2,1,2,0,AZ,8318 North 57th Drive,Glendale,85302,Amy Tsay,935-79-3424,0,0,0,Amy Tsay from Glendale. Last visit on 09/14/2019,0
+55,0,0,180,327,0,2,117,1,3.4,1,0,2,0,CO,7256 West 84th Way,Arvada,80003,Le Do,255-48-1418,0,1,0,Le Do from Arvada. Last visit on 03/13/2020,1
+49,1,2,118,149,0,0,126,0,0.8,2,3,2,0,MD,706 Seagrove Road,Glen Burnie,21060,Mehmet Yildirim,388-58-4162,0,1,1,Mehmet Yildirim from Glen Burnie. Last visit on 04/13/2019,0
+54,1,0,122,286,0,0,116,1,3.2,1,2,2,0,FL,2318 Camryns Crossing,Panama City,32405,Seema Thapar,491-74-6680,0,0,1,Seema Thapar from Panama City. Last visit on 05/09/2020,0
+56,1,0,130,283,1,0,103,1,1.6,0,0,3,0,CA,968 Virginia Avenue,Olivehurst,95961,Fernanda Sarmento,809-94-6573,0,0,0,Fernanda Sarmento from Olivehurst. Last visit on 04/26/2020,0
+46,1,0,120,249,0,0,144,0,0.8,2,0,3,0,OK,416 South University Boulevard,Norman,73069,Manu Mallat,987-73-5515,0,0,0,Manu Mallat from Norman. Last visit on 10/04/2020,0
+61,1,3,134,234,0,1,145,0,2.6,1,2,2,0,AL,137 Gazebo East Drive,Montgomery,36117,Abdul-qahhar Abadi,167-18-3536,0,0,0,Abdul-qahhar Abadi from Montgomery. Last visit on 02/20/2019,0
+67,1,0,120,237,0,1,71,0,1.0,1,0,2,0,KY,10723 Colonial Woods Court,Louisville,40223,Peeter Vaino,918-83-1182,0,0,0,Peeter Vaino from Louisville. Last visit on 12/13/2019,1
+58,1,0,100,234,0,1,156,0,0.1,2,1,3,0,TN,119 Matthew Lane,Nashville,37215,Endre Barta,624-66-8236,0,0,0,Endre Barta from Nashville. Last visit on 05/15/2019,0
+47,1,0,110,275,0,0,118,1,1.0,1,1,2,0,AR,3142 West Finger Road,Fayetteville,72701,Victor Ignatiev,396-28-8280,0,0,1,Victor Ignatiev from Fayetteville. Last visit on 09/26/2020,0
+52,1,0,125,212,0,1,168,0,1.0,2,2,3,0,VT,4 Elm Street,Windsor,05089,Nur Fatmawati,212-85-6957,0,1,0,Nur Fatmawati from Windsor. Last visit on 07/12/2018,0
+58,1,0,146,218,0,1,105,0,2.0,1,1,3,0,MA,78 School Street,Woburn,01801,Mohan Pandey,638-18-4874,0,0,0,Mohan Pandey from Woburn. Last visit on 11/09/2020,1
+57,1,1,124,261,0,1,141,0,0.3,2,0,3,0,AZ,19020 North 68th Avenue,Glendale,85308,Luca Udinesi,650-54-4362,0,0,0,Luca Udinesi from Glendale. Last visit on 09/26/2019,0
+58,0,1,136,319,1,0,152,0,0.0,2,2,2,0,AR,2849 Quail Drive,Fayetteville,72704,Rayko Dimitrov,168-12-8262,0,0,0,Rayko Dimitrov from Fayetteville. Last visit on 07/17/2020,0
+61,1,0,138,166,0,0,125,1,3.6,1,1,2,0,CO,2456 22nd Avenue,Greeley,80631,Naima Larsson,164-38-9709,0,0,0,Naima Larsson from Greeley. Last visit on 01/21/2019,0
+42,1,0,136,315,0,1,125,1,1.8,1,0,1,0,CT,200 Boulder Road,Manchester,06040,Joanna Dabrowska,889-80-3024,0,0,0,Joanna Dabrowska from Manchester. Last visit on 12/10/2018,0
+52,1,0,128,204,1,1,156,1,1.0,1,0,0,0,CA,11150 Sun Valley Drive,Oakland,94605,Dimitrios Sirigos,657-66-4506,0,0,1,Dimitrios Sirigos from Oakland. Last visit on 05/07/2019,1
+59,1,2,126,218,1,1,134,0,2.2,1,1,1,0,OK,505 Southeast 32nd Street,Oklahoma City,73129,Mustafa Yildiz,498-11-8437,0,0,0,Mustafa Yildiz from Oklahoma City. Last visit on 12/07/2019,1
+40,1,0,152,223,0,1,181,0,0.0,2,0,3,0,FL,1025 West 19th Street,Panama City,32405,Tore Østrem,775-23-1810,0,0,0,Tore Østrem from Panama City. Last visit on 09/28/2020,0
+61,1,0,140,207,0,0,138,1,1.9,2,1,3,0,AL,6725 Pamela Court,Montgomery,36116,Vilma Waltari,214-65-2788,0,0,0,Vilma Waltari from Montgomery. Last visit on 08/17/2018,1
+46,1,0,140,311,0,1,120,1,1.8,1,2,3,0,AL,4714 Narrow Lane Road,Montgomery,36116,Smiriti Sisodiya,179-36-6443,0,0,1,Smiriti Sisodiya from Montgomery. Last visit on 02/07/2020,0
+59,1,3,134,204,0,1,162,0,0.8,2,2,2,0,MA,11 Proctor Circle,Peabody,01960,Yusuf Jansson,584-33-4678,0,1,0,Yusuf Jansson from Peabody. Last visit on 05/29/2020,0
+57,1,1,154,232,0,0,164,0,0.0,2,1,2,0,KY,10508 Kovats Court,Louisville,40223,Jim Gan,474-17-2913,0,0,1,Jim Gan from Louisville. Last visit on 08/25/2018,0
+57,1,0,110,335,0,1,143,1,3.0,1,1,3,0,DC,3179 18th Street Northwest,Washington,20010,Monica Krommenhoek,842-67-3351,0,0,0,Monica Krommenhoek from Washington. Last visit on 12/10/2019,0
+55,0,0,128,205,0,2,130,1,2.0,1,1,3,0,DC,3194 Bladensburg Road Northeast,Washington,20018,Luis Rodrigues,387-11-3479,0,0,1,Luis Rodrigues from Washington. Last visit on 03/21/2018,0
+61,1,0,148,203,0,1,161,0,0.0,2,1,3,0,CA,260 Rio Del Mar Boulevard,Aptos,95003,Sonja Zorko,871-40-7523,0,0,0,Sonja Zorko from Aptos. Last visit on 08/24/2020,0
+58,1,0,114,318,0,2,140,0,4.4,0,3,1,0,AK,1040 West 27th Avenue,Anchorage,99503,Josko Lucic,772-56-8886,0,0,0,Josko Lucic from Anchorage. Last visit on 04/11/2018,0
+58,0,0,170,225,1,0,146,1,2.8,1,2,1,0,VT,42 Lake Lane,Westmore,05860,Artur Cunha,983-91-2191,1,0,0,Artur Cunha from Westmore. Last visit on 04/03/2019,0
+67,1,2,152,212,0,0,150,0,0.8,1,0,3,0,FL,3718 Bay Tree Road,Lynn Haven,32444,Anna Hedlund,267-95-3326,0,0,0,Anna Hedlund from Lynn Haven. Last visit on 01/12/2020,1
+44,1,0,120,169,0,1,144,1,2.8,0,0,1,0,KY,3408 Bellisima Place,Louisville,40245,Hakan Kokshoorn,702-67-5337,0,0,0,Hakan Kokshoorn from Louisville. Last visit on 07/12/2020,0
+63,1,0,140,187,0,0,144,1,4.0,2,2,3,0,TN,4109 General Bate Drive,Nashville,37204,Gaziz Isauly,276-68-2698,0,0,1,Gaziz Isauly from Nashville. Last visit on 05/08/2019,0
+63,0,0,124,197,0,1,136,1,0.0,1,0,2,0,CO,5329 A Street,Greeley,80634,Eddie Siau,213-49-9870,1,1,1,Eddie Siau from Greeley. Last visit on 07/18/2020,0
+59,1,0,164,176,1,0,90,0,1.0,1,2,1,0,MA,88 Shute Street,Everett,02149,Marek Pawlowski,253-75-7104,0,0,0,Marek Pawlowski from Everett. Last visit on 10/14/2019,0
+57,0,0,140,241,0,1,123,1,0.2,1,0,3,0,VT,480 Keene Road,Walden,05836,Jeanette Berggren,935-35-7330,1,1,0,Jeanette Berggren from Walden. Last visit on 10/25/2018,0
+45,1,3,110,264,0,1,132,0,1.2,1,0,3,0,MA,4 Cutting Avenue,Worcester,01606,Vladyslav Rudenko,947-60-6032,0,0,0,Vladyslav Rudenko from Worcester. Last visit on 12/29/2020,1
+68,1,0,144,193,1,1,141,0,3.4,1,2,3,0,CO,275 South 40th Street,Boulder,80305,Nenad Jovovic,521-33-3709,0,1,0,Nenad Jovovic from Boulder. Last visit on 06/26/2019,1
+57,1,0,130,131,0,1,115,1,1.2,1,1,3,0,AR,1189 Northwest End Avenue,Fayetteville,72703,Loek Holst,982-91-9684,0,0,0,Loek Holst from Fayetteville. Last visit on 05/08/2020,0
+57,0,1,130,236,0,0,174,0,0.0,1,1,2,0,CT,25 Cliffside Drive,Manchester,06042,Vjekoslav Jelic,265-44-1710,0,0,0,Vjekoslav Jelic from Manchester. Last visit on 11/21/2018,1

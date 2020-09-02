@@ -1,0 +1,55 @@
+Database:
+  UCI:
+    PEOPLE:
+      rows: 303
+      age:
+        type: int
+        lower: 0
+        upper: 100
+      sex:
+        type: string
+      state:
+        type: string
+      address:
+        type: string
+      city:
+        type: string
+      postalCode:
+        type: string
+      name:
+        type: string
+      pregnant:
+        type: int
+      diabetic:
+        type: int
+      asthmatic:
+        type: int
+      observation:
+        type: string
+      cholesterol:
+        type: float
+      chest_pain_type:
+        type: float
+      resting_blood_pressure:
+        type: float
+      fasting_blood_sugar:
+        type: float
+      rest_ecg:
+        type: float
+      max_heart_rate_achieved:
+        type: float
+      exercise_induced_angina:
+        type: float
+      st_depression:
+        type: float
+      st_slope:
+        type: float
+      num_major_vessels:
+        type: float
+      thalassemia:
+        type: float
+      target:
+        type: int
+      ssn:
+        type: string
+        private_id: True

@@ -1,0 +1,154 @@
+{
+  "differential_privacy_step": [
+    {
+      "datastore": {
+        "pipeline_parameter_name": "datastore_differential_privacy_step",
+        "pipeline_parameter_value": "workspaceblobstore"
+      }
+    },
+    {
+      "dataset_name": {
+        "pipeline_parameter_name": "dataset_name_differential_privacy_step",
+        "pipeline_parameter_value": "heart_disease_dataset"
+      }
+    },
+    {
+      "retrain_status":{
+        "pipeline_parameter_name": "retrain_status_differential_privacy_step",
+        "pipeline_parameter_value": false
+      }
+    }
+  ],
+  "preprocessing_step": [
+    {
+      "datastore": {
+        "pipeline_parameter_name": "datastore_preprocessing_step",
+        "pipeline_parameter_value": "workspaceblobstore"
+      }
+    },
+    {
+      "dataset_name": {
+        "pipeline_parameter_name": "dataset_name_preprocessing_step",
+        "pipeline_parameter_value": "heart_disease_dataset"
+      }
+    },
+    {
+      "dataset_preprocessed_name": {
+        "pipeline_parameter_name": "dataset_preprocessed_name_preprocessing_step",
+        "pipeline_parameter_value": "heart_disease_preprocessed"
+      }
+    },
+    {
+      "use_datadrift": {
+        "pipeline_parameter_name": "use_datadrift_name_preprocessing_step",
+        "pipeline_parameter_value": true
+      }
+    },
+    {
+      "retrain_status":{
+        "pipeline_parameter_name": "retrain_status_preprocessing_step",
+        "pipeline_parameter_value": false
+      }
+    }
+  ],
+  "fairlearn_detect_fairness_step": [
+    {
+      "fitted_model_name": {
+        "pipeline_parameter_name": "fitted_model_name_fairlearn_detect_fairness_step",
+        "pipeline_parameter_value": "heart_disease_model_automl"
+      }
+    },
+    {
+      "dataset_name": {
+        "pipeline_parameter_name": "dataset_name_fairlearn_detect_fairness_step",
+        "pipeline_parameter_value": "heart_disease_preprocessed_train"
+      }
+    },
+    {
+      "model_data": {
+        "pipeline_parameter_name": "model_data_fairlearn_detect_fairness_step",
+        "pipeline_parameter_value": "./model_data"
+      }
+    }
+  ],
+  "fairlearn_create_multimodels_fairness_step": [
+    {
+      "dataset_name": {
+        "pipeline_parameter_name": "dataset_name_fairlearn_create_multimodels_fairness_step",
+        "pipeline_parameter_value": "heart_disease_preprocessed_train"
+      }
+    }
+  ],
+  "register_model_step": [
+    {
+      "model_name": {
+        "pipeline_parameter_name": "model_name_register_model_step",
+        "pipeline_parameter_value": "heart_disease_model_automl"
+      }
+    },
+    {
+      "dataset_name": {
+        "pipeline_parameter_name": "dataset_name_register_model_step",
+        "pipeline_parameter_value": "heart_disease_preprocessed_train"
+      }
+    }
+  ],
+  "explainer_model_step": [
+    {
+      "explainer_model_name": {
+        "pipeline_parameter_name": "explainer_model_name_explainer_step",
+        "pipeline_parameter_value": "heart_disease_explainer_automl"
+      }
+    },
+    {
+      "fitted_model_name": {
+        "pipeline_parameter_name": "fitted_model_name_explainer_step",
+        "pipeline_parameter_value": "heart_disease_model_automl"
+      }
+    },
+    {
+      "model_data": {
+        "pipeline_parameter_name": "model_data_explainer_step",
+        "pipeline_parameter_value": "./model_data"
+      }
+    },
+    {
+      "dataset_name": {
+        "pipeline_parameter_name": "dataset_name_explainer_step",
+        "pipeline_parameter_value": "heart_disease_preprocessed_train"
+      }
+    }
+  ],
+  "deploy_step": [
+    {
+      "update_deployment": {
+        "pipeline_parameter_name": "update_deployment_deploy_step",
+        "pipeline_parameter_value": false
+      }
+    },
+    {
+      "dataset_name": {
+        "pipeline_parameter_name": "dataset_name_deploy_step",
+        "pipeline_parameter_value": "heart_disease_preprocessed_train"
+      }
+    },
+    {
+      "model_name": {
+        "pipeline_parameter_name": "model_name_deploy_step",
+        "pipeline_parameter_value": "heart_disease_model_automl"
+      }
+    },
+    {
+      "explainer_model_name": {
+        "pipeline_parameter_name": "explainer_model_name_deploy_step",
+        "pipeline_parameter_value": "heart_disease_explainer_automl"
+      }
+    },
+    {
+      "service_name": {
+        "pipeline_parameter_name": "service_name_deploy_step",
+        "pipeline_parameter_value": "heart-disease-service"
+      }
+    }
+  ]
+}

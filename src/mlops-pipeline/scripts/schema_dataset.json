@@ -1,0 +1,20 @@
+{
+    "age": "int64",
+    "sex": "int64",
+    "chest_pain_type": "int64",
+    "resting_blood_pressure": "int64",
+    "cholesterol": "int64",
+    "fasting_blood_sugar": "int64",
+    "rest_ecg": "int64",
+    "max_heart_rate_achieved": "int64",
+    "exercise_induced_angina": "int64",
+    "st_depression": "float64",
+    "st_slope": "int64",
+    "num_major_vessels": "int64",
+    "thalassemia": "int64",
+    "target": "int64",
+    "pregnant": "int64", 
+    "diabetic": "int64",
+    "asthmatic": "int64", 
+    "smoker": "int64"
+}

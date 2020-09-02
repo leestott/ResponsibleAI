@@ -1,0 +1,12 @@
+name: heart-disease-datadrift
+channels:
+  - defaults
+dependencies:
+  - pip=20.0.2
+  - python=3.7.7
+  - pip:
+      - ipykernel==5.1.4
+      - jupyter==1.0.0
+      - azureml-sdk==1.8.0
+      - azureml-widgets==1.8.0
+      - azureml-datadrift==1.8.0

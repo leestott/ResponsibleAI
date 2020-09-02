@@ -1,0 +1,14 @@
+name: heart-disease-mlops
+channels:
+  - defaults
+dependencies:
+  - pip=20.0.2
+  - python=3.7.7
+  - pip:
+      - ipykernel==5.1.4
+      - joblib==0.16.0
+      - scikit-learn==0.23.0
+      - jupyter==1.0.0
+      - azureml-sdk==1.8.0
+      - azureml-sdk[automl]
+      - azureml-widgets==1.8.0
