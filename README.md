@@ -388,9 +388,15 @@ pip --disable-pip-version-check --no-cache-dir install sklearn
 
 pip --disable-pip-version-check --no-cache-dir install azureml-sdk
 
-pip --disable-pip-version-check --no-cache-dir install azureml-sdk[auto]
+pip --disable-pip-version-check --no-cache-dir install azureml-sdk[automl]
 
 pip --disable-pip-version-check --no-cache-dir install azureml-widgets
+
+pip --disable-pip-version-check --no-cache-dir install azureml-interpret
+
+pip --disable-pip-version-check --no-cache-dir install azureml-contrib-interpret
+
+pip --disable-pip-version-check --no-cache-dir install azureml-monitoring
 
 pip --disable-pip-version-check --no-cache-dir  install opendp-whitenoise
 
@@ -401,6 +407,14 @@ pip --disable-pip-version-check --no-cache-dir install matplotlib
 pip --disable-pip-version-check --no-cache-dir install seaborn
 
 pip --disable-pip-version-check --no-cache-dir install pandas-profiling
+
+pip --disable-pip-version-check --no-cache-dir install interpret-community
+
+pip --disable-pip-version-check --no-cache-dir install fairlearn
+
+pip --disable-pip-version-check --no-cache-dir install azureml-contrib-fairness
+
+pip --disable-pip-version-check --no-cache-dir install azureml-datadrift
 
 You can now execute the notebooks successfully.
 
