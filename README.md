@@ -356,7 +356,7 @@ To complete the labs, you'll need the following:
         - **Suspend idle environment after**: 120 minutes
     5. Wait for the environment to be created, and then click **Connect** to connect to it. This will open a browser-based instance of Visual Studio Code.
 
-Using Azure Machine learning Notebooks 
+## Using Azure Machine learning Notebooks 
 
 - Simply download the folder structure and upload the entire content to Azure Machine Learning Notebook 
 
