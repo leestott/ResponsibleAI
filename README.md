@@ -176,7 +176,7 @@ This database contains 76 attributes, but all published experiments refer to usi
 
 Download scratch dataset from: http://archive.ics.uci.edu/ml/datasets/Heart+Disease or https://www.kaggle.com/ronitf/heart-disease-uci
 
-#### Original Columsn Dataset:
+#### Original Columns Dataset:
 
   - **age:** age in years
   - **sex:**
@@ -227,7 +227,7 @@ As part of the exploratory analysis and preprocessing of our data, we have appli
 
 The original dataset doesn't have any personal o sensible data that we can use it to identify a person or mitigate fairness, just Sex and Age. Therefore, for the purpose of this project and to show the capabilities of Differential Privacy and Detect Fairness techniques, we have created a notebook to generate a custom dataset with the following new columns and schema:
 
-#### Custom colums base on original dataset:
+#### Custom columns base on original dataset:
 
 #### Original Columns Dataset:
 
