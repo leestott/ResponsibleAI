@@ -336,7 +336,7 @@ The final view of the Azure resource group will be like the following image:
 
 This repository contains a labs to help you get started with Creating and deploying Azure machine learning module.
 
-[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=MSLearn-create-deploy-azure-ml-module&repo=leestott/create-ml-workshop-responsibleai)
+[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=MSLearn-create-deploy-azure-ml-module&repo=leestott/ResponsibleAI)
 
 ## Manually creating a VS Online Container
 
@@ -355,6 +355,8 @@ To complete the labs, you'll need the following:
         - **Instance Type**: Standard (Linux) 4 cores, 8GB RAM
         - **Suspend idle environment after**: 120 minutes
     5. Wait for the environment to be created, and then click **Connect** to connect to it. This will open a browser-based instance of Visual Studio Code.
+    
+The current Visual Studio Codespaces Environment is based on Debian 10 there are some limitation to the Azure ML SDK with linux at present. Error on some notebooks may occur ensure the correct libraries and versions are installed using !pip install.    
 
 ### Using Azure Machine learning Notebooks 
 
@@ -372,49 +374,44 @@ To complete the labs, you'll need the following:
 
 - select the terminal and install all the requirements using pip install 
 
-### Install Responsible AI Requirements 
+## Install Responsible AI Requirements 
 
+Each notebook contains an environment.yml file listing all the necessary python libraries which are associated and required for the notebook execution.
+
+### Libraries Required 
+
+The following libraries are required 
+
+- pylint
+- numpy
+- pandas
+- ipykernel
+- joblib
+- sklearn
+- azureml-sdk
+- azureml-sdk[automl]
+- azureml-widgets
+- azureml-interpret
+- azureml-contrib-interpret
+- interpret-community
+- azureml-monitoring
+- opendp-whitenoise
+- opendp-whitenoise-core
+- matplotlib
+- seaborn
+- pandas-profiling
+- fairlearn
+- azureml-contrib-fairness
+- azureml-datadrift
+
+### Installation
+
+Use the following to install the libraries
 pip --disable-pip-version-check --no-cache-dir install pylint
 
-pip --disable-pip-version-check --no-cache-dir install numpy
+Or inline within a Juputer Notebook use
+!pip install numpy
 
-pip --disable-pip-version-check --no-cache-dir install pandas
-
-pip --disable-pip-version-check --no-cache-dir install ipykernel
-
-pip --disable-pip-version-check --no-cache-dir install joblib
-
-pip --disable-pip-version-check --no-cache-dir install sklearn
-
-pip --disable-pip-version-check --no-cache-dir install azureml-sdk
-
-pip --disable-pip-version-check --no-cache-dir install azureml-sdk[automl]
-
-pip --disable-pip-version-check --no-cache-dir install azureml-widgets
-
-pip --disable-pip-version-check --no-cache-dir install azureml-interpret
-
-pip --disable-pip-version-check --no-cache-dir install azureml-contrib-interpret
-
-pip --disable-pip-version-check --no-cache-dir install azureml-monitoring
-
-pip --disable-pip-version-check --no-cache-dir  install opendp-whitenoise
-
-pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise-core
-
-pip --disable-pip-version-check --no-cache-dir install matplotlib
-
-pip --disable-pip-version-check --no-cache-dir install seaborn
-
-pip --disable-pip-version-check --no-cache-dir install pandas-profiling
-
-pip --disable-pip-version-check --no-cache-dir install interpret-community
-
-pip --disable-pip-version-check --no-cache-dir install fairlearn
-
-pip --disable-pip-version-check --no-cache-dir install azureml-contrib-fairness
-
-pip --disable-pip-version-check --no-cache-dir install azureml-datadrift
 
 You can now execute the notebooks successfully.
 
@@ -438,7 +435,27 @@ The folder src have:
 
 If you are running this on a local machine non devcontainer you execute the following commands before do anything inside these notebooks. 
 
-For each one do the following cmd lines:
+## Using Conda for Environments 
+
+### Add new kernels
+
+The Notebook will automatically find all Jupyter kernels installed on the connected compute instance. To add a kernel to the compute instance:
+
+Select Open terminal in the Notebook toolbar.
+
+Use the terminal window to create a new environment. For example, the code below creates newenv:
+
+conda create --name newenv
+Activate the environment. For example, after creating newenv:
+
+conda activate newenv
+Install pip and ipykernel package to the new environment and create a kernel for that conda env
+
+conda install pip
+conda install ipykernel
+python -m ipykernel install --user --name newenv --display-name "Python (newenv)"
+
+Any of the available Jupyter Kernels can be installed. https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
 
 - **Conda commands to create local env by environment.yml:** `conda env create -f environment.yml`
 - **Set conda env into jupyter notebook:** `python -m ipykernel install --user --name <environment_name> --display-name "Python (<environment_name>)"`
