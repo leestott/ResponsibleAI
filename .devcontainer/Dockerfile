@@ -38,36 +38,8 @@ RUN apt-get update \
     # Verify git, process tools, lsb-release (common in install instructions for CLIs) installed
     && apt-get -y install git openssh-client less iproute2 procps lsb-release \
     #
-    # Install Responsible AI Requirements 
-    && pip --disable-pip-version-check --no-cache-dir install pylint \ 
-    && pip --disable-pip-version-check --no-cache-dir install jupyter==1.0.0 \
-    && pip --disable-pip-version-check --no-cache-dir install numpy==1.18.5 \
-    && pip --disable-pip-version-check --no-cache-dir install matplotlib==3.1.0 \
-    && pip --disable-pip-version-check --no-cache-dir install seaborn==0.10.0 \
-    && pip --disable-pip-version-check --no-cache-dir install pandas-profiling==2.8.0 \
-    && pip --disable-pip-version-check --no-cache-dir install fairlearn==0.4.6 \
-    && pip --disable-pip-version-check --no-cache-dir install interpret-community==0.11.2 \
-    && pip --disable-pip-version-check --no-cache-dir install pandas==1.0.4 \
-    && pip --disable-pip-version-check --no-cache-dir install ipykernel==5.1.4 \ 
-    && pip --disable-pip-version-check --no-cache-dir install scikit-learn==0.23.0 \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-sdk==1.8.0 \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-sdk[automl] \ 
-    && pip --disable-pip-version-check --no-cache-dir install azureml-widgets==1.8.0 \ 
-    && pip --disable-pip-version-check --no-cache-dir install azureml-contrib-interpret==1.7.0 \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-contrib-fairness==1.8.0 \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-datadrift==1.8.0 \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-monitoring==0.1.0a18 \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-interpret==1.7.0.post1 \
-    && pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise==0.1.1.1 \
-    && pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise-core==0.1.3 \
-    && pip --disable-pip-version-check --no-cache-dir install joblib==0.16.0 \
-
-    # Install DataScience Python Libraries
-    && pip --disable-pip-version-check --no-cache-dir install scipy \
-    && pip --disable-pip-version-check --no-cache-dir install folium>=0.9.1 \
-    && pip --disable-pip-version-check --no-cache-dir install matplotlib==3.1.3 \
-    && pip --disable-pip-version-check --no-cache-dir install ipywidgets>=7.0.0 \
-    && pip --disable-pip-version-check --no-cache-dir install bqplot \
+    # Install Cmake
+    && apt-get -y install cmake \
     #
     # Update Python environment based on requirements.txt
     ## && pip --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements.txt \
