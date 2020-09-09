@@ -1,0 +1,31 @@
+name: heart-disease-automl
+channels:
+  - defaults
+dependencies:
+  - pip=20.0.2
+  - python=3.7.7
+  - pip:
+      - numpy==1.18.5
+      - pandas==1.0.4
+      - ipykernel==5.1.4
+      - jupyter==1.0.0
+      - sklearn==0.0
+      - scikit-learn==0.23.0
+      - matplotlib==3.1.0
+      - interpret-community==0.11.2
+      - fairlearn==0.4.6
+      - azureml-sdk==1.8.0
+      - azureml-sdk[automl]
+      - azureml-widgets==1.8.0
+      - azureml-contrib-fairness==1.8.0
+      - azureml-defaults>=1.0.45
+      - azureml-sdk[automl]==1.7.0.post1
+      - azureml-interpret==1.7.0.post1
+      - azureml-contrib-interpret==1.7.0
+      - azureml-monitoring==0.1.0a18
+      - opendp-whitenoise==0.1.1.1
+      - opendp-whitenoise-core==0.1.3
+      - joblib==0.16.0
+      - azureml-datadrift==1.8.0
+      - seaborn==0.10.0
+      - pandas-profiling==2.8.0
