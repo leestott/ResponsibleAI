@@ -42,12 +42,25 @@ RUN apt-get update \
     && pip --disable-pip-version-check --no-cache-dir install pylint \ 
     && pip --disable-pip-version-check --no-cache-dir install jupyter \
     && pip --disable-pip-version-check --no-cache-dir install numpy \
+    && pip --disable-pip-version-check --no-cache-dir install matplotlib \
+    && pip --disable-pip-version-check --no-cache-dir install seaborn \
+    && pip --disable-pip-version-check --no-cache-dir install pandas-profiling \
+    && pip --disable-pip-version-check --no-cache-dir install fairlearn \
+    && pip --disable-pip-version-check --no-cache-dir install interpret-community \
     && pip --disable-pip-version-check --no-cache-dir install pandas \
     && pip --disable-pip-version-check --no-cache-dir install ipykernel \ 
     && pip --disable-pip-version-check --no-cache-dir install sklearn \
     && pip --disable-pip-version-check --no-cache-dir install azureml-sdk \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-sdk[auto] \ 
+    && pip --disable-pip-version-check --no-cache-dir install azureml-sdk[automl] \ 
     && pip --disable-pip-version-check --no-cache-dir install azureml-widgets \ 
+    && pip --disable-pip-version-check --no-cache-dir install azureml-interpret \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-contrib-interpret \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-contrib-fairness \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-datadrift \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-monitoring \
+    && pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise \
+    && pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise-core \
+    && pip --disable-pip-version-check --no-cache-dir install joblib \
 
     # Install DataScience Python Libraries
     && pip --disable-pip-version-check --no-cache-dir install pylint \ 
