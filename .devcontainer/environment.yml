@@ -14,6 +14,7 @@ dependencies:
       - matplotlib==3.1.0
       - interpret-community==0.11.2
       - fairlearn==0.4.6
+      - azureml-core==1.13.0
       - azureml-sdk==1.8.0
       - azureml-sdk[automl]
       - azureml-widgets==1.8.0
