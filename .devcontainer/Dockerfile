@@ -40,36 +40,32 @@ RUN apt-get update \
     #
     # Install Responsible AI Requirements 
     && pip --disable-pip-version-check --no-cache-dir install pylint \ 
-    && pip --disable-pip-version-check --no-cache-dir install jupyter \
-    && pip --disable-pip-version-check --no-cache-dir install numpy \
-    && pip --disable-pip-version-check --no-cache-dir install matplotlib \
-    && pip --disable-pip-version-check --no-cache-dir install seaborn \
-    && pip --disable-pip-version-check --no-cache-dir install pandas-profiling \
-    && pip --disable-pip-version-check --no-cache-dir install fairlearn \
-    && pip --disable-pip-version-check --no-cache-dir install interpret-community \
-    && pip --disable-pip-version-check --no-cache-dir install pandas \
-    && pip --disable-pip-version-check --no-cache-dir install ipykernel \ 
-    && pip --disable-pip-version-check --no-cache-dir install sklearn \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-sdk \
+    && pip --disable-pip-version-check --no-cache-dir install jupyter==1.0.0 \
+    && pip --disable-pip-version-check --no-cache-dir install numpy==1.18.5 \
+    && pip --disable-pip-version-check --no-cache-dir install matplotlib==3.1.0 \
+    && pip --disable-pip-version-check --no-cache-dir install seaborn==0.10.0 \
+    && pip --disable-pip-version-check --no-cache-dir install pandas-profiling==2.8.0 \
+    && pip --disable-pip-version-check --no-cache-dir install fairlearn==0.4.6 \
+    && pip --disable-pip-version-check --no-cache-dir install interpret-community==0.11.2 \
+    && pip --disable-pip-version-check --no-cache-dir install pandas==1.0.4 \
+    && pip --disable-pip-version-check --no-cache-dir install ipykernel==5.1.4 \ 
+    && pip --disable-pip-version-check --no-cache-dir install scikit-learn==0.23.0 \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-sdk==1.8.0 \
     && pip --disable-pip-version-check --no-cache-dir install azureml-sdk[automl] \ 
-    && pip --disable-pip-version-check --no-cache-dir install azureml-widgets \ 
-    && pip --disable-pip-version-check --no-cache-dir install azureml-interpret \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-contrib-interpret \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-contrib-fairness \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-datadrift \
-    && pip --disable-pip-version-check --no-cache-dir install azureml-monitoring \
-    && pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise \
-    && pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise-core \
-    && pip --disable-pip-version-check --no-cache-dir install joblib \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-widgets==1.8.0 \ 
+    && pip --disable-pip-version-check --no-cache-dir install azureml-contrib-interpret==1.7.0 \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-contrib-fairness==1.8.0 \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-datadrift==1.8.0 \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-monitoring==0.1.0a18 \
+    && pip --disable-pip-version-check --no-cache-dir install azureml-interpret==1.7.0.post1 \
+    && pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise==0.1.1.1 \
+    && pip --disable-pip-version-check --no-cache-dir install opendp-whitenoise-core==0.1.3 \
+    && pip --disable-pip-version-check --no-cache-dir install joblib==0.16.0 \
 
     # Install DataScience Python Libraries
-    && pip --disable-pip-version-check --no-cache-dir install pylint \ 
-    && pip --disable-pip-version-check --no-cache-dir install jupyter \
-    && pip --disable-pip-version-check --no-cache-dir install numpy \
-    && pip --disable-pip-version-check --no-cache-dir install pandas \
     && pip --disable-pip-version-check --no-cache-dir install scipy \
     && pip --disable-pip-version-check --no-cache-dir install folium>=0.9.1 \
-    && pip --disable-pip-version-check --no-cache-dir install matplotlib \
+    && pip --disable-pip-version-check --no-cache-dir install matplotlib==3.1.3 \
     && pip --disable-pip-version-check --no-cache-dir install ipywidgets>=7.0.0 \
     && pip --disable-pip-version-check --no-cache-dir install bqplot \
     #
