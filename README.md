@@ -70,7 +70,6 @@ This MLOps functionalities that Azure Machine Learning have, enables you to trac
 
 if you want to know more about how we have implemented the machine learning workflow using Azure Machine Learning Studio, please, see the following [file](docs/ResponsibleAI_Presentation.pdf)
 
-
 # Understanding (InterpretML)
 
 ![InterpretML](docs/interpretML.png)
@@ -331,49 +330,6 @@ The final view of the Azure resource group will be like the following image:
 
 ## 2. Install Project dependencies
 
-### Virtual environments to execute Azure Machine Learning notebooks using Visual Studio Codespaces.
-
-
-This repository contains a labs to help you get started with Creating and deploying Azure machine learning module.
-
-[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=ResponsibleAI&repo=leestott/ResponsibleAI)
-
-## Manually creating a VS Online Container
-
-To complete the labs, you'll need the following:
-
-- A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a> or a Student Subscription at <a href ='https://aks.ms/azureforstudents' target='_blank'>https://aka.ms/azureforstudents</a>.
-
-- A Visual Studio Codespaces environment. This provides a hosted instance of Visual Studio Code, in which you'll be able to run the notebooks for the lab exercises. To set up this environment:
-
-    1. Browse to <a href ='https://online.visualstudio.com' target='_blank'>https://online.visualstudio.com</a>
-    2. Click **Get Started**.
-    3. Sign in using the Microsoft account associated with your Azure subscription.
-    4. Click **Create environment**. If you don't already have a Visual Studio Online plan, create one. This is used to track resource utlization by your Visual Studio Online environments. Then create an environment with the following settings:
-        - **Environment Name**: *A name for your environment - for example, **MSLearn-create-deploy-azure-ml-module**.*
-        - **Git Repository**: leestott/create-deploy-azure-ml-module
-        - **Instance Type**: Standard (Linux) 4 cores, 8GB RAM
-        - **Suspend idle environment after**: 120 minutes
-    5. Wait for the environment to be created, and then click **Connect** to connect to it. This will open a browser-based instance of Visual Studio Code.
-    
-The current Visual Studio Codespaces Environment is based on Debian 10 there are some limitation to the Azure ML SDK with linux at present. Error on some notebooks may occur ensure the correct libraries and versions are installed using !pip install.    
-
-### Using Azure Machine learning Notebooks 
-
-- Simply download the folder structure and upload the entire content to Azure Machine Learning Notebook 
-
-![aml notebook](docs/aml_notebook_upload.PNG)
-
-- You now need to create a new compute instance for your notebook environment 
-
-![aml compute](docs/aml_compute.PNG)
-
-- You now need to install the AML Prequestites to the Notebook Compute Host, to do this simply open a notebook and then select the open terminal. 
-
-![aml compute terminal](docs/notebook_terminal.PNG)
-
-- select the terminal and install all the requirements using pip install 
-
 ## Install Responsible AI Requirements 
 
 Each notebook contains an environment.yml file listing all the necessary python libraries which are associated and required for the notebook execution.
@@ -412,9 +368,7 @@ pip --disable-pip-version-check --no-cache-dir install pylint
 Or inline within a Juputer Notebook use
 !pip install numpy
 
-
 You can now execute the notebooks successfully.
-
 
 ## Jupyter Notebooks
 
@@ -433,7 +387,7 @@ The folder src have:
 6. **monitoring:** datadrift-pipeline.ipynb and environment.yml
 7. **preprocessing:** exploratory_data_analysis.ipynb and environment.yml
 
-If you are running this on a local machine non devcontainer you execute the following commands before do anything inside these notebooks. 
+Our recommendation is to use dedicated Conda environments for each of the Notebooks due to library and version dependencies if you are running this on a local machine non devcontainer you will need to create the conda enviroments via using conda navigator or execute the following commands before do anything inside these notebooks. 
 
 ## Using Conda for Environments 
 
@@ -459,6 +413,48 @@ Any of the available Jupyter Kernels can be installed. https://github.com/jupyte
 
 - **Conda commands to create local env by environment.yml:** `conda env create -f environment.yml`
 - **Set conda env into jupyter notebook:** `python -m ipykernel install --user --name <environment_name> --display-name "Python (<environment_name>)"`
+
+### Virtual environments to execute Azure Machine Learning notebooks using Visual Studio Codespaces.
+
+This repository contains a labs to help you get started with Creating and deploying Azure machine learning module.
+
+[![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=ResponsibleAI&repo=leestott/ResponsibleAI)
+
+## Manually creating a VS Online Container
+
+To complete the labs, you'll need the following:
+
+- A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a> or a Student Subscription at <a href ='https://aks.ms/azureforstudents' target='_blank'>https://aka.ms/azureforstudents</a>.
+
+- A Visual Studio Codespaces environment. This provides a hosted instance of Visual Studio Code, in which you'll be able to run the notebooks for the lab exercises. To set up this environment:
+
+    1. Browse to <a href ='https://online.visualstudio.com' target='_blank'>https://online.visualstudio.com</a>
+    2. Click **Get Started**.
+    3. Sign in using the Microsoft account associated with your Azure subscription.
+    4. Click **Create environment**. If you don't already have a Visual Studio Online plan, create one. This is used to track resource utlization by your Visual Studio Online environments. Then create an environment with the following settings:
+        - **Environment Name**: *A name for your environment - for example, **MSLearn-create-deploy-azure-ml-module**.*
+        - **Git Repository**: leestott/create-deploy-azure-ml-module
+        - **Instance Type**: Standard (Linux) 4 cores, 8GB RAM
+        - **Suspend idle environment after**: 120 minutes
+    5. Wait for the environment to be created, and then click **Connect** to connect to it. This will open a browser-based instance of Visual Studio Code.
+
+The current Visual Studio Codespaces Environment is based on Debian 10 there are some limitation to the Azure ML SDK with linux at present. Error on some notebooks may occur ensure the correct libraries and versions are installed using !pip install and please check library dependencies.
+
+### Using Azure Machine learning Notebooks 
+
+- Simply download the folder structure and upload the entire content to Azure Machine Learning Notebook 
+
+![aml notebook](docs/aml_notebook_upload.PNG)
+
+- You now need to create a new compute instance for your notebook environment 
+
+![aml compute](docs/aml_compute.PNG)
+
+- You now need to install the AML Prequestites to the Notebook Compute Host, to do this simply open a notebook and then select the open terminal. 
+
+![aml compute terminal](docs/notebook_terminal.PNG)
+
+- select the terminal and install all the requirements using pip install 
 
 ## 3. Run Dataset Generator
 
