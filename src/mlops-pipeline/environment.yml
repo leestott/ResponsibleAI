@@ -11,4 +11,4 @@ dependencies:
       - jupyter==1.0.0
       - azureml-sdk==1.9.0
       - azureml-sdk[automl]
-      - azureml-widgets==1.8.0
+      - azureml-widgets==1.9.0
