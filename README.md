@@ -460,26 +460,26 @@ The folder src have:
 6. **monitoring:** datadrift-pipeline.ipynb and environment.yml
 7. **preprocessing:** exploratory_data_analysis.ipynb and environment.yml
 
-Our recommendation is to use dedicated Conda environments for each of the Notebooks due to library and version dependencies if you are running this on a local machine non devcontainer you will need to create the conda enviroments via using conda navigator or execute the following commands before do anything inside these notebooks.
+Our recommendation is to use dedicated Conda environments for each of the Notebooks due to library and version dependencies if you are running this on a local machine non devcontainer you will need to create the conda enviroments via using conda navigator or execute the Conda installation before do anything inside these notebooks.
 
 ## 3. Run Dataset Generator
 
 Run `src/dataset-generator/dataset-generator.ipynb` to create the project dataset made from UCI Heart-Disease dataset specifically to Responsible AI steps.
-See the dataset generated on **./dataset** folder
+See the dataset generated in the **./dataset** folder
 
 ## 4. Publish the pipeline
 
 Run `src/mlops-pipeline/mlops-publish-pipeline.ipynb` to create a machine learning service pipeline with Responsible AI steps and MLOps techniques that runs jobs unattended in different compute clusters.
 
-You can see the runs pipelines in the Azure portal.
+You can see the run in the Azure Machine Learning Services Portal in the pipelines section of the portal.
 
 ![Pipelines in portal](docs/pipelines.jpg)
 
 ## 5. Submit pipeline using API Rest
 
-Run `src/mlops-pipeline/mlops-submit-pipeline.ipynb` to execute/invoke this published pipeline via REST endpoint.
+Run `src/mlops-pipeline/mlops-submit-pipeline.ipynb` to execute/invoke this publishes the pipeline via REST endpoint.
 
-You can see the runs pipelines in the Azure portal.
+You can see the run in the Azure Machine Learning Services Portal in the pipelines section of the portal.
 
 ![Pipelines in portal](docs/pipelines_runs.jpg)
 
@@ -487,13 +487,13 @@ You can see the runs pipelines in the Azure portal.
 
 Run `src/monitoring/datadrift-pipeline.ipynb` to create and execute data drift detector. At the end of this notebook, you will be able to make a request with new data in order to detect drift
 
-Go to Azure ML portal models section. In the details tab now you can see a new section about Data Drift Detector status and configuration.
+Go to Azure Machine Learning portal models section. In the details tab now you can see a new section about Data Drift Detector status and configuration.
 
 ![Data Drift in portal](./src/monitoring/images/drift_service.png)
 
 ## 7. Execute pipeline with retrain configuration
 
-If Data Drift coefficient is greater than the configured threshold a new alert will be send to the final user. In that moment, the user will can execute the re-train pipeline in order to improve the performance of the model taking into account the new collected data.
+If Data Drift coefficient is greater than the configured threshold a new alert will be sent to the final user. In that moment, the user will can execute the re-train pipeline in order to improve the performance of the model taking into account the new collected data.
 
 Go to Azure ML Portal Pipelines section. Click on the last pipeline version. Then, you will have to click on submit button. Now, you should see something like the following image:
 
@@ -507,7 +507,7 @@ Finally, in the same view, to do the retrain process correctly some parameters h
 3. **retrain_status_preprocessing_step** = True
 3. **update_deployment_deploy_step** = True
 
-Once the parameters were setted we have everything ready to execute the retraining process!
+Once the parameters are set, we have everything ready to execute the retraining process!
 
 ![Retrain parameters in portal](/docs/retrain_pipeline_parameters.png)
 
