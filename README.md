@@ -120,7 +120,7 @@ ML is increasingly used in scenarios that encompass sensitive information, such 
 
 ## Avoid data exposure with differential privacy
 
-By using the new Differential Privacy Toolkit with Azure Machine Learning,data science teams can create ML solutions that preserve privacy and help prevent the re-identification of a person's data. These differential privacy techniques have been developed in collaboration with researchers from the Institute of Quantitative Social Sciences (IQSS) and the Harvard School of Engineering.
+By using the new Differential Privacy Toolkit with Azure Machine Learning, data science teams can create ML solutions that preserve privacy and help prevent the re-identification of a person's data. These differential privacy techniques have been developed in collaboration with researchers from the Institute of Quantitative Social Sciences (IQSS) and the Harvard School of Engineering.
 
 Differential privacy protects sensitive information with:
 
@@ -224,7 +224,7 @@ The dataset we use in this repository is a customized one. In the Getting Starte
 
 As part of the exploratory analysis and preprocessing of our data, we have applied several techniques that help us understand the data. The insights discovered (visualizations) were uploaded into an Azure ML Experiment. As part of the study, we took our target variable, and we analyzed it and checked its interaction with other variables.
 
-The original dataset doesn't have any personal o sensible data that we can use it to identify a person or mitigate fairness, just Sex and Age. Therefore, for the purpose of this project and to show the capabilities of Differential Privacy and Detect Fairness techniques, we have created a notebook to generate a custom dataset with the following new columns and schema:
+The original dataset doesn't have any personal or sensible data that we can use it to identify a person or mitigate fairness, just Sex and Age. Therefore, for the purpose of this project and to show the capabilities of Differential Privacy and Detect Fairness techniques, we have created a notebook to generate a custom dataset with the following new columns and schema:
 
 #### Custom columns base on original dataset:
 
@@ -266,7 +266,7 @@ The original dataset doesn't have any personal o sensible data that we can use i
     - 1: smoker
   - **observations (custom)**
 
-To generate the information related to state, address, city, postalcode we have downloaded it from **https://github.com/EthanRBrown/rrad**. From this repository we are able to get a list of real, random addresses that geocode successfully (tested on Google's Geocoding API service). The address data comes from the OpenAddresses project, and all the addresses are in the public domain. The addresses are deliberately not linked to people or businesses; the only guarantee is that they are real addresses that geocode successfully.
+To generate the information related to state, address, city, postal code we have downloaded it from **https://github.com/EthanRBrown/rrad**. From this repository we are able to get a list of real, random addresses that geocode successfully (tested on Google's Geocoding API service). The address data comes from the OpenAddresses project, and all the addresses are in the public domain. The addresses are deliberately not linked to people or businesses; the only guarantee is that they are real addresses that geocode successfully.
 
 This *custom dataset* will be the dataset that the Azure ML steps will use. The name that we set to it was "complete_patients_dataset.csv". You can find it on *./dataset*
 
@@ -332,11 +332,19 @@ The final view of the Azure resource group will be like the following image:
 
 ## Install Responsible AI Requirements 
 
-Each notebook contains an environment.yml file listing all the necessary python libraries which are associated and required for the notebook execution.
+Each notebook contains an environment.yml file listing all the necessary python libraries which are associated and required for the notebook execution.We recommend you use a conda environment.
 
-### Libraries Required 
+Here is the basic recipe for using Conda to manage a project specific software stack.
+(base) $ cd project-dir
+(base) $ conda env create --prefix ./env --file environment.yml
+(base) $ conda activate ./env # activate the environment
+(/path/to/env) $ conda deactivate # done working on project (for now!)
 
-The following libraries are required 
+There are more details below on creating your conda environment
+
+### Libraries Required
+
+The following libraries are required
 
 - pylint
 - numpy
@@ -360,67 +368,43 @@ The following libraries are required
 - azureml-contrib-fairness
 - azureml-datadrift
 
-### Installation
-
-Use the following to install the libraries
-pip --disable-pip-version-check --no-cache-dir install pylint
-
-Or inline within a Juputer Notebook use
-!pip install numpy
-
-You can now execute the notebooks successfully.
-
-## Jupyter Notebooks
-
-In this project we have inside src folder many directories with jupyter notebook that you have to execute to obtain and complete the objective of this repository.
-The folder src have:
-
-1. **automated-ml:** automated-ml.ipynb and environment.yml
-2. **dataset-generator:** dataset-generator.ipynb and environment.yml
-3. **detect-fairness:** fairlearn.ipynb and environment.yml
-4. **differential-privacy:** differential-privacy.ipynb and environment.yml
-5. **mlops pipelines:**
-   1. explain_automl_model_local.ipynb
-   2. mlops-publish-pipeline.ipynb
-   3. mlops-submit-pipeline.ipynb
-   4. environment.yml
-6. **monitoring:** datadrift-pipeline.ipynb and environment.yml
-7. **preprocessing:** exploratory_data_analysis.ipynb and environment.yml
-
-Our recommendation is to use dedicated Conda environments for each of the Notebooks due to library and version dependencies if you are running this on a local machine non devcontainer you will need to create the conda enviroments via using conda navigator or execute the following commands before do anything inside these notebooks. 
-
 ## Using Conda for Environments 
 
-### Add new kernels
 
 The Notebook will automatically find all Jupyter kernels installed on the connected compute instance. To add a kernel to the compute instance:
 
 Select Open terminal in the Notebook toolbar.
 
-Use the terminal window to create a new environment. For example, the code below creates newenv:
+Use the terminal window to create a new environment. For example, the code below creates newenv: `conda create --name newenv` 
+Activate the environment. For example, after creating newenv: `conda activate newenv`
 
-conda create --name newenv
-Activate the environment. For example, after creating newenv:
+### Adding New Kernels (Optional)
 
-conda activate newenv
-Install pip and ipykernel package to the new environment and create a kernel for that conda env
-
-conda install pip
-conda install ipykernel
-python -m ipykernel install --user --name newenv --display-name "Python (newenv)"
+**Install pip and ipykernel package to the new environment and create a kernel for that conda env**
+`conda install pip`
+`conda install ipykernel`
+`python -m ipykernel install --user --name newenv --display-name "Python (newenv)"`
 
 Any of the available Jupyter Kernels can be installed. https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
 
 - **Conda commands to create local env by environment.yml:** `conda env create -f environment.yml`
 - **Set conda env into jupyter notebook:** `python -m ipykernel install --user --name <environment_name> --display-name "Python (<environment_name>)"`
 
-### Virtual environments to execute Azure Machine Learning notebooks using Visual Studio Codespaces.
+### Installation of Python Libraries (Optional)
+
+**Use the following to install the libraries:** `pip --disable-pip-version-check --no-cache-dir install pylint`
+
+**Or inline within a Juputer Notebook use:** `!pip install numpy`
+
+You can now execute the notebooks successfully.
+
+### Virtual environments to execute Azure Machine Learning notebooks using Visual Studio Codespaces.(Optional)
 
 This repository contains a labs to help you get started with Creating and deploying Azure machine learning module.
 
 [![Open in Visual Studio Online](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=ResponsibleAI&repo=leestott/ResponsibleAI)
 
-## Manually creating a VS Online Container
+## Manually creating a VS Online Container (Optional)
 
 To complete the labs, you'll need the following:
 
@@ -440,7 +424,7 @@ To complete the labs, you'll need the following:
 
 The current Visual Studio Codespaces Environment is based on Debian 10 there are some limitation to the Azure ML SDK with linux at present. Error on some notebooks may occur ensure the correct libraries and versions are installed using !pip install and please check library dependencies.
 
-### Using Azure Machine learning Notebooks 
+### Using Azure Machine learning Notebooks (Optional)
 
 - Simply download the folder structure and upload the entire content to Azure Machine Learning Notebook 
 
@@ -456,6 +440,25 @@ The current Visual Studio Codespaces Environment is based on Debian 10 there are
 
 - select the terminal and install all the requirements using pip install 
 
+## Jupyter Notebooks
+
+In this project we have inside src folder many directories with jupyter notebook that you have to execute to obtain and complete the objective of this repository.
+The folder src have:
+
+1. **automated-ml:** automated-ml.ipynb and environment.yml
+2. **dataset-generator:** dataset-generator.ipynb and environment.yml
+3. **detect-fairness:** fairlearn.ipynb and environment.yml
+4. **differential-privacy:** differential-privacy.ipynb and environment.yml
+5. **mlops pipelines:**
+   1. explain_automl_model_local.ipynb
+   2. mlops-publish-pipeline.ipynb
+   3. mlops-submit-pipeline.ipynb
+   4. environment.yml
+6. **monitoring:** datadrift-pipeline.ipynb and environment.yml
+7. **preprocessing:** exploratory_data_analysis.ipynb and environment.yml
+
+Our recommendation is to use dedicated Conda environments for each of the Notebooks due to library and version dependencies if you are running this on a local machine non devcontainer you will need to create the conda enviroments via using conda navigator or execute the following commands before do anything inside these notebooks.
+
 ## 3. Run Dataset Generator
 
 Run `src/dataset-generator/dataset-generator.ipynb` to create the project dataset made from UCI Heart-Disease dataset specifically to Responsible AI steps.
@@ -469,7 +472,7 @@ You can see the runs pipelines in the Azure portal.
 
 ![Pipelines in portal](docs/pipelines.jpg)
 
-## 5. Submit pipeline using API Rest 
+## 5. Submit pipeline using API Rest
 
 Run `src/mlops-pipeline/mlops-submit-pipeline.ipynb` to execute/invoke this published pipeline via REST endpoint.
 
