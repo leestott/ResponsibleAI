@@ -334,11 +334,15 @@ The final view of the Azure resource group will be like the following image:
 
 Each notebook contains an environment.yml file listing all the necessary python libraries which are associated and required for the notebook execution.We recommend you use a conda environment.
 
-Here is the basic recipe for using Conda to manage a project specific software stack.
-(base) $ cd project-dir
-(base) $ conda env create --prefix ./env --file environment.yml
-(base) $ conda activate ./env # activate the environment
-(/path/to/env) $ conda deactivate # done working on project (for now!)
+** Here is the basic recipe for using Conda to manage a project specific software stack.**
+
+`(base) $ cd project-dir`
+
+`(base) $ conda env create --prefix ./env --file environment.yml`
+
+`(base) $ conda activate ./env # activate the environment`
+
+`(/path/to/env) $ conda deactivate # done working on project (for now!)`
 
 There are more details below on creating your conda environment
 
@@ -368,19 +372,21 @@ The following libraries are required
 - azureml-contrib-fairness
 - azureml-datadrift
 
-## Using Conda for Environments 
-
+## Using Conda for Environments
 
 The Notebook will automatically find all Jupyter kernels installed on the connected compute instance. To add a kernel to the compute instance:
 
 Select Open terminal in the Notebook toolbar.
 
-Use the terminal window to create a new environment. For example, the code below creates newenv: `conda create --name newenv` 
-Activate the environment. For example, after creating newenv: `conda activate newenv`
+Use the terminal window to create a new environment. For example, 
+
+- **The code creates newenv:** `conda create --name newenv` 
+
+- **Activate the environment after creating newenv:** `conda activate newenv`
 
 ### Adding New Kernels (Optional)
 
-**Install pip and ipykernel package to the new environment and create a kernel for that conda env**
+- **Install pip and ipykernel package to the new environment and create a kernel for that conda env**
 `conda install pip`
 `conda install ipykernel`
 `python -m ipykernel install --user --name newenv --display-name "Python (newenv)"`
