@@ -378,11 +378,11 @@ The Notebook will automatically find all Jupyter kernels installed on the connec
 
 Select Open terminal in the Notebook toolbar.
 
-Use the terminal window to create a new environment. For example, 
+Use the Visual Studio Code terminal window to create a new environment. For example:
 
-- **The code creates newenv:** `conda create --name newenv` 
-
-- **Activate the environment after creating newenv:** `conda activate newenv`
+- **Conda commands to create local env by environment.yml:** `conda env create -f environment.yml`
+- **Set conda env into jupyter notebook:** `python -m ipykernel install --user --name <environment_name> --display-name "Python (<environment_name>)"`
+- **Activate the environment after creating newenv:** `conda activate <environment_name>`
 
 ### Adding New Kernels (Optional)
 
@@ -392,9 +392,6 @@ Use the terminal window to create a new environment. For example,
 `python -m ipykernel install --user --name newenv --display-name "Python (newenv)"`
 
 Any of the available Jupyter Kernels can be installed. https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
-
-- **Conda commands to create local env by environment.yml:** `conda env create -f environment.yml`
-- **Set conda env into jupyter notebook:** `python -m ipykernel install --user --name <environment_name> --display-name "Python (<environment_name>)"`
 
 ### Installation of Python Libraries (Optional)
 
