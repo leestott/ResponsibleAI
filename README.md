@@ -334,7 +334,7 @@ The final view of the Azure resource group will be like the following image:
 
 Each notebook contains an environment.yml file listing all the necessary python libraries which are associated and required for the notebook execution.We recommend you use a conda environment.
 
-** Here is the basic recipe for using Conda to manage a project specific software stack.**
+**Here is the basic recipe for using Conda to manage a project specific software stack.**
 
 `(base) $ cd project-dir`
 
