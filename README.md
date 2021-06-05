@@ -23,8 +23,8 @@ Within this repository, you will find all the resources needed to create and sim
 
 1. [Differential Privacy](https://github.com/opendifferentialprivacy)
 2. [FairLearn](https://github.com/fairlearn/fairlearn)
-3. [InterpretML](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-interpretability)
-4. [DataDrift](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-monitor-data-drift)
+3. [InterpretML](https://docs.microsoft.com/azure/machine-learning/how-to-machine-learning-interpretability?WT.mc_id=academic-0000-leestott)
+4. [DataDrift](https://docs.microsoft.com/azure/machine-learning/how-to-monitor-data-drift?WT.mc_id=academic-0000-leestott)
 
 > **The goal of this project is to detect if a person is suitable for receiving a treatment for heart disease.**
 
@@ -411,11 +411,11 @@ This repository contains a labs to help you get started with Creating and deploy
 
 To complete the labs, you'll need the following:
 
-- A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a> or a Student Subscription at <a href ='https://aks.ms/azureforstudents' target='_blank'>https://aka.ms/azureforstudents</a>.
+- A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com/?WT.mc_id=academic-0000-leestott' target='_blank'>https://azure.microsoft.com/?WT.mc_id=academic-0000-leestott</a> or a Student Subscription at <a href ='https://aks.ms/azureforstudents' target='_blank'>https://aka.ms/azureforstudents</a>.
 
 - A Visual Studio Codespaces environment. This provides a hosted instance of Visual Studio Code, in which you'll be able to run the notebooks for the lab exercises. To set up this environment:
 
-    1. Browse to <a href ='https://online.visualstudio.com' target='_blank'>https://online.visualstudio.com</a>
+    1. Browse to <a href ='https://online.visualstudio.com/?WT.mc_id=academic-0000-leestott' target='_blank'>https://online.visualstudio.com/?WT.mc_id=academic-0000-leestott</a>
     2. Click **Get Started**.
     3. Sign in using the Microsoft account associated with your Azure subscription.
     4. Click **Create environment**. If you don't already have a Visual Studio Online plan, create one. This is used to track resource utlization by your Visual Studio Online environments. Then create an environment with the following settings:
@@ -513,19 +513,19 @@ Once the parameters are set, we have everything ready to execute the retraining 
 
 # References
 
-- [Azure Machine Learning(Azure ML) Service Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/service/overview-what-is-azure-ml)
-- [Azure ML CLI](https://docs.microsoft.com/en-us/azure/machine-learning/service/reference-azure-machine-learning-cli)
-- [Azure Responsible AI](https://azure.microsoft.com/es-es/blog/build-ai-you-can-trust-with-responsible-ml/)
-- [Azure ML Samples](https://docs.microsoft.com/en-us/azure/machine-learning/service/samples-notebooks)
-- [Azure ML Python SDK Quickstart](https://docs.microsoft.com/en-us/azure/machine-learning/service/quickstart-create-workspace-with-python)
+- [Azure Machine Learning(Azure ML) Service Workspace](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml?WT.mc_id=academic-0000-leestott)
+- [Azure ML CLI](https://docs.microsoft.com/azure/machine-learning/service/reference-azure-machine-learning-cli?WT.mc_id=academic-0000-leestott)
+- [Azure Responsible AI](https://azure.microsoft.com/blog/build-ai-you-can-trust-with-responsible-ml/?WT.mc_id=academic-0000-leestott)
+- [Azure ML Samples](https://docs.microsoft.com/azure/machine-learning/service/samples-notebooks?WT.mc_id=academic-0000-leestott)
+- [Azure ML Python SDK Quickstart](https://docs.microsoft.com/azure/machine-learning/service/quickstart-create-workspace-with-python?WT.mc_id=academic-0000-leestott)
 - [Azure ML MLOps Quickstart](https://github.com/Microsoft/MLOps)
-- [Azure Machine learning](https://azure.microsoft.com/services/machine-learning)
-- [Create development environment for Machine learning](https://docs.microsoft.com/azure/machine-learning/service/how-to-configure-environment)
-- [AML Python SDK](https://docs.microsoft.com/azure/machine-learning/service/how-to-configure-environment)
-- [AML Pipelines](https://docs.microsoft.com/azure/machine-learning/service/how-to-create-your-first-pipeline)
-- [Getting started with Auto ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)
-- [Intro to AML – MS Learn](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-machine-learning-service)
-- [Automate model select with AML - MS Learn](https://docs.microsoft.com/en-us/learn/modules/automate-model-selection-with-azure-automl)
-- [Train local model with AML - MS Learn](https://docs.microsoft.com/en-us/learn/modules/train-local-model-with-azure-mls)
+- [Azure Machine learning](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-0000-leestott)
+- [Create development environment for Machine learning](https://docs.microsoft.com/azure/machine-learning/service/how-to-configure-environment?WT.mc_id=academic-0000-leestott)
+- [AML Python SDK](https://docs.microsoft.com/azure/machine-learning/service/how-to-configure-environment?WT.mc_id=academic-0000-leestott)
+- [AML Pipelines](https://docs.microsoft.com/azure/machine-learning/service/how-to-create-your-first-pipeline?WT.mc_id=academic-0000-leestott)
+- [Getting started with Auto ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml?WT.mc_id=academic-0000-leestott)
+- [Intro to AML – MS Learn](https://docs.microsoft.com/learn/modules/intro-to-azure-machine-learning-service?WT.mc_id=academic-0000-leestott)
+- [Automate model select with AML - MS Learn](https://docs.microsoft.com/learn/modules/automate-model-selection-with-azure-automl?WT.mc_id=academic-0000-leestott)
+- [Train local model with AML - MS Learn](https://docs.microsoft.com/learn/modules/train-local-model-with-azure-mls?WT.mc_id=academic-0000-leestott)
 
 **Tags: Azure Machine Learning Service, Machine Learning, Differential-Privacy, Fairlearn, MLOPs, Data-Drift, InterpretML**
